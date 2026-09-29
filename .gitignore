@@ -55,3 +55,13 @@
 !tools/verify_chinese_subtitles.py
 !tools/verify_migration.py
 !tools/test_public_files.py
+!assets/revision4-manifest.json
+!docs/v4-revision.md
+!tests/v4-revision-contract.json
+!tools/revision4_composite.py
+!tools/revision4_juggle.py
+!tools/revision4_layers.py
+!tools/revision4_verify.py
+!tools/test_revision4.py
+!docs/v2-release.md
+!tests/v4-verification.json

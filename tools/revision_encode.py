@@ -23,4 +23,4 @@ def main(comparison_only=False,version='v2'):
         '-pix_fmt','yuv420p','-r','24','-fps_mode','cfr','-c:a','copy'],OUT/f'roxy-full-comparison-{version}.mp4')
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--comparison-only',action='store_true');ap.add_argument('--version',choices=['v2','v3'],default='v2');args=ap.parse_args();main(args.comparison_only,args.version)
+    ap=argparse.ArgumentParser();ap.add_argument('--comparison-only',action='store_true');ap.add_argument('--version',choices=['v2','v3','v4'],default='v2');args=ap.parse_args();main(args.comparison_only,args.version)

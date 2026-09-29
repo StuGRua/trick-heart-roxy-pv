@@ -1,0 +1,411 @@
+[
+  {
+    "file": "assets/spiral-v4.png",
+    "prompt": "Use case: precise-object-edit. Edit this existing animation cel, keeping exact same 16:9 canvas, framing, character position, blue hair, cream blouse and tan bow, yellow flower, line art and flat colors. ONLY change BOTH irises/pupils into obvious comedic dizzy spiral eyes: dark navy/black circular eyes with a clear white spiral in each, like classic anime dizziness. Preserve eye outlines and white sclera, mouth, blush, everything else. This is a registered animation expression variant; no zoom, no repositioning, no new text, no extra effects.",
+    "references": [
+      "assets/full-2410.png"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "1d38d7e08ea2d3e9629e6e762fef1af55c20b6a54039ff330bf8679e1032c712",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/wink-v4.png",
+    "prompt": "Use case: precise-object-edit. Registered animation cel expression variant. Preserve exact same 16:9 canvas, face size and placement, all blue hair and twin braids, blue card and bare hand, cream blouse, brown bow, burgundy background. ONLY close the eye on the LEFT SIDE OF THE IMAGE into a gently curved eyelash line, while keeping the eye on the RIGHT SIDE open and slightly sleepy. Make mouth a small horizontal open oval, as a short blink/waking expression, not broad laughter. Keep eye spacing/face silhouette unchanged. No text, no extra objects, no camera movement.",
+    "references": [
+      "assets/full-2448.png"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "50d943c1a3b3b690476bae889006e0d37ce0b359734f62c7fa5cfd3647cd0986",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/sofa-awake-v4.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET and established Roxy design/style. Image 2 is pose/expression reference only. Make ONE 16:9 registered variant of Image 1: Roxy has just woken up, head raised slightly and turned toward screen-left, BOTH BLUE EYES OPEN, small quietly surprised mouth. The white duck on her head faces screen-left in side profile, matching the action in Image 2. Keep all other pixels/composition of Image 1 as close as possible: same blue twin braids, cream collared blouse and tan bow, navy pleated skirt, black boots, sitting posture/hand, rabbit on lap, sofa/cushions, dog, side table, burgundy background. Same full shot framing and exact character position/scale. Do not copy the red-haired character, purple jacket, yellow shirt, Japanese lyrics or butterflies from Image 2. No text. Do not add gloves or hats.",
+    "references": [
+      "assets/full-3120.png",
+      "source frame 3376"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "5aa4246c2d082f26c87a66be38a5b7190cf93fe95b119bd684dcd800d008c269",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/smile-closed-mouth-v4.png",
+    "prompt": "Use case: precise-object-edit. Make a registered animation expression variant of this EXACT cel. Change ONLY the mouth from open smile to a small relaxed CLOSED smile line. Eyes remain open with the identical eyelids/gaze. Preserve all face geometry, head tilt, blue hair/braids, cream blouse, brown bow, paper frame, burgundy background, canvas aspect ratio and placement. No new text, no other changes.",
+    "references": [
+      "assets/casual-1103.png"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "aca1914d5c75408463e5bec04f9c42a6e48bfe6a08e8e6fb73dce7718d173a46",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/mage-laugh-v4.png",
+    "prompt": "Use case: precise-object-edit. Registered expression variant, SAME complete 16:9 cel and identical top-left paper panel position/size. Change ONLY her mouth into a visibly OPEN HAPPY LAUGH, small wide rounded mouth with pink interior, matching cheerful closed crescent eyes. Keep eyes closed, blush, blue twin braids, neck, mage shirt/tie/clothes, background and all paper frame edges identical. Do not zoom or recenter. No text.",
+    "references": [
+      "assets/full-325.png"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "b43dd7b70317ba4810d6ccf518c5660fd17eaa5420aebaf83246bd3b758dc6fb",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/blink-v4.png",
+    "prompt": "Use case: precise-object-edit. Create a blink expression cel. Change ONLY BOTH of Roxy's eyes to closed relaxed downward eyelash curves, a brief natural blink. Keep the exact head position, face silhouette, tiny closed mouth, nose, blue twin braids, cream blouse, tan bow, duck and burgundy background. Same 16:9 canvas and precise image registration. No head tilt changes, no extra effects, no text.",
+    "references": [
+      "assets/full-3338.png"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "23ab148398ed2ad33e8cad4c572aab8644ee8fd9843083c089e051c3229b6deb",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/standing-alt-v4.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET, same Roxy mage model and exact 16:9 composition. Image 2 demonstrates the subtle alternating standing cels to match, not a new character design. Create the alternate animation cel of Roxy: keep both boots planted in the identical positions, gently lean upper torso/head about 2 degrees toward screen-right, shift the raised index-finger hand a little toward screen-right and upward and rotate wrist slightly, subtly change braid bends and coat folds consistent with that small weight shift. Body must actually change pose relative to feet, not a global slide. Keep her recognizable face, eye expression, brown mage coat, black cuffs, bare hands without gloves, blue twin braids, hat. Preserve dog and background exactly. Small movement only, not waving or a large new gesture. No text.",
+    "references": [
+      "assets/full-1944.png",
+      "source frames 1930..2002 step 6"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "b306645492b3a78f86843ee3ff50c58c6c415ba9ee9fe20ba0efe75a8f631d2a",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/lap-clothing-v4.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is the edit target: a close-up of a sleeping white/red rabbit on a clothed lap inside a cream rectangular inset. Replace ONLY the old yellow and gray-purple clothing in that inset with clothing matching Roxy in Image 2: ivory cream collared blouse above, dark navy pleated skirt underneath the rabbit, natural fabric folds. No yellow hoodie and no purple jacket should remain. The rabbit must keep its exact silhouette, face, red patches, paws, position and size; preserve the cream inset background on the right and all frame edges. Keep the full 16:9 layout and outside burgundy background/lettering as reference, no recenter or zoom, no character face added. This is a small registered clothing-insert cel for compositing; do not redesign the costume.",
+    "references": [
+      "source frame 3294",
+      "assets/full-3120.png"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "77e4fe879d9fdd44c5ad570aa34ebc1f86c3ec6100a941c8547691d847720a93",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/ending-clothing-v4.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is edit target. Inside its LEFT rectangular inset, replace the old yellow shirt and gray-purple jacket fabric with Roxy's cream blouse and dark navy pleated skirt from Image 2, as a tight waist-level clothing detail: cream blouse at left/upper part, navy skirt fabric and clear subtle pleat seams at right/lower part. Preserve the ace-of-hearts card pendant, transparent holder and cord in exactly the same position, size and angle. Keep inset edges and all outer background/title composition unchanged. Absolutely no purple jacket or yellow hoodie fabric. Do not introduce a face or hands, no added text. Same 16:9 registration; only local clothing adaptation.",
+    "references": [
+      "source frame 3720",
+      "assets/full-3120.png"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "be0f91899a01464cc2bcd5bc8a54e7c44765032232dc0ffed95b90f396a1ad15",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2472-v4.png",
+    "prompt": "Use case: identity-preserve. Image 1 is the EDIT TARGET, an exact animation key pose. Replace only the red-haired performer with Roxy Greyrat from Mushoku Tensei, using Image 2 strictly as the character/costume/line-art reference. Preserve Image 1's exact body pose, shoulder angles, elbow and wrist positions, hand gesture, head center and size, eye open/closed state and mouth expression. Preserve ALL THREE yellow juggling balls, their centers, sizes, dotted texture, and exact contact with the fingers; bare slim human hands with no gloves and no seams must wrap naturally around held balls, with fingers visibly in front where Image 1 shows them. Long blue twin braids, blue eyes when open, tan mage coat with dark cuffs, white shirt, dark tie and straps, dark witch hat. Keep figure scale/placement exactly as Image 1, do NOT copy pose from Image 2. Same portrait crop, flat burgundy background and thin hand-drawn anime lines. No text. No extra balls or fingers. Do not enlarge her head or hands. This is a registered cel for animation compositing.",
+    "references": [
+      "source frame 2472; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "f2d8e37456c817639a82c49d7ea58ed5ee5c0b081f12f45c8f313d303652aefb",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "generation-reference"
+  },
+  {
+    "file": "assets/juggle-2490-v4.png",
+    "prompt": "Use case: identity-preserve. Image 1 is the EDIT TARGET, an exact animation key pose. Replace only the red-haired performer with Roxy Greyrat from Mushoku Tensei, using Image 2 strictly as the character/costume/line-art reference. Preserve Image 1's exact body pose, shoulder angles, elbow and wrist positions, hand gesture, head center and size, eye open/closed state and mouth expression. Preserve ALL THREE yellow juggling balls, their centers, sizes, dotted texture, and exact contact with the fingers; bare slim human hands with no gloves and no seams must wrap naturally around held balls, with fingers visibly in front where Image 1 shows them. Long blue twin braids, blue eyes when open, tan mage coat with dark cuffs, white shirt, dark tie and straps, dark witch hat. Keep figure scale/placement exactly as Image 1, do NOT copy pose from Image 2. Same portrait crop, flat burgundy background and thin hand-drawn anime lines. No text. No extra balls or fingers. Do not enlarge her head or hands. This is a registered cel for animation compositing.",
+    "references": [
+      "source frame 2490; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "510a0fb9d7b886423d6df5496dfd4aa9c5c89d0354d9e3d7adc89bce8357c1a2",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "generation-reference"
+  },
+  {
+    "file": "assets/juggle-2472-v4-clean.png",
+    "prompt": "Use case: precise-object-edit. Remove ALL yellow dotted juggling balls from this animation cel. Reconstruct the small obscured parts of the hat, clothes and background naturally, and keep the hands in the EXACT same positions and gestures, curved around now-invisible balls. Preserve all visible fingertips, finger silhouettes, palms, wrists, elbows, face expression, head center, hat, braids and costume as-is. Do not relax or move the hands. No balls, no circular holes, no yellow dots remaining anywhere. This is the clean character layer; moving balls will be composited separately. Same exact canvas, framing and registration. Keep the burgundy background and paper edges. No text.",
+    "references": [
+      "assets/juggle-2472-v4.png"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "6aeb7529b2bbfc6594234a5eeb7dc38b0ab75c44f3c5c3f8393355ebf5ed83e9",
+    "size": [
+      1151,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2490-v4-clean.png",
+    "prompt": "Use case: precise-object-edit. Remove ALL yellow dotted juggling balls from this animation cel. Reconstruct the small obscured parts of the hat, clothes and background naturally, and keep the hands in the EXACT same positions and gestures, curved around now-invisible balls. Preserve all visible fingertips, finger silhouettes, palms, wrists, elbows, face expression, head center, hat, braids and costume as-is. Do not relax or move the hands. No balls, no circular holes, no yellow dots remaining anywhere. This is the clean character layer; moving balls will be composited separately. Same exact canvas, framing and registration. Keep the burgundy background and paper edges. No text.",
+    "references": [
+      "assets/juggle-2490-v4.png"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "5a9266af1981ee17f4aab0a3d98f0e0aa3646fd8e5b0c052ffb074986827a550",
+    "size": [
+      1151,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2478-v4-clean.png",
+    "prompt": "Use case: identity-preserve. Image 1 is an EXACT animation key-pose reference. Image 2 is the established Roxy mage design. Draw Roxy Greyrat from Mushoku Tensei replacing the performer in Image 1, with the EXACT same head center/size, head tilt, eye open/closed expression, torso, elbows, wrists, and all visible finger positions. Blue twin braids, blue eyes when open, tan mage coat with dark cuffs/straps, white shirt/dark tie, dark witch hat; naturally bare hands, no gloves/seams. IMPORTANT: OMIT ALL YELLOW BALLS from the output (they are composited separately), but retain the hand poses curved around their imaginary locations and reconstruct unobscured hat/clothes/skin behind them. Do NOT move or relax hands. Flat burgundy background, same portrait crop and exact figure placement as Image 1; not the pose of Image 2. No text, no yellow spheres, no floating dots. Registered animation cel, clean flat anime line art, constant character proportions.",
+    "references": [
+      "source frame 2478; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "7c7ed77cb66186d01850dfe492076c31c4f26382f75db41dff1b819ef9d731ea",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2484-v4-clean.png",
+    "prompt": "Use case: identity-preserve. Image 1 is an EXACT animation key-pose reference. Image 2 is the established Roxy mage design. Draw Roxy Greyrat from Mushoku Tensei replacing the performer in Image 1, with the EXACT same head center/size, head tilt, eye open/closed expression, torso, elbows, wrists, and all visible finger positions. Blue twin braids, blue eyes when open, tan mage coat with dark cuffs/straps, white shirt/dark tie, dark witch hat; naturally bare hands, no gloves/seams. IMPORTANT: OMIT ALL YELLOW BALLS from the output (they are composited separately), but retain the hand poses curved around their imaginary locations and reconstruct unobscured hat/clothes/skin behind them. Do NOT move or relax hands. Flat burgundy background, same portrait crop and exact figure placement as Image 1; not the pose of Image 2. No text, no yellow spheres, no floating dots. Registered animation cel, clean flat anime line art, constant character proportions.",
+    "references": [
+      "source frame 2484; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "f8c3d1337ba24a2c37232677cfc5bcffdad50cf5b1ba6ae4a4cd052bcee2e991",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2496-v4-clean.png",
+    "prompt": "Use case: identity-preserve. Image 1 is an EXACT animation key-pose reference. Image 2 is the established Roxy mage design. Draw Roxy Greyrat from Mushoku Tensei replacing the performer in Image 1, with the EXACT same head center/size, head tilt, eye open/closed expression, torso, elbows, wrists, and all visible finger positions. Blue twin braids, blue eyes when open, tan mage coat with dark cuffs/straps, white shirt/dark tie, dark witch hat; naturally bare hands, no gloves/seams. IMPORTANT: OMIT ALL YELLOW BALLS from the output (they are composited separately), but retain the hand poses curved around their imaginary locations and reconstruct unobscured hat/clothes/skin behind them. Do NOT move or relax hands. Flat burgundy background, same portrait crop and exact figure placement as Image 1; not the pose of Image 2. No text, no yellow spheres, no floating dots. Registered animation cel, clean flat anime line art, constant character proportions.",
+    "references": [
+      "source frame 2496; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "4ac55012c3263579788137f696c5546595a577ecb82a5bb11ef26b32fc610112",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2502-v4-clean.png",
+    "prompt": "Use case: identity-preserve. Image 1 is an EXACT animation key-pose reference. Image 2 is the established Roxy mage design. Draw Roxy Greyrat from Mushoku Tensei replacing the performer in Image 1, with the EXACT same head center/size, head tilt, eye open/closed expression, torso, elbows, wrists, and all visible finger positions. Blue twin braids, blue eyes when open, tan mage coat with dark cuffs/straps, white shirt/dark tie, dark witch hat; naturally bare hands, no gloves/seams. IMPORTANT: OMIT ALL YELLOW BALLS from the output (they are composited separately), but retain the hand poses curved around their imaginary locations and reconstruct unobscured hat/clothes/skin behind them. Do NOT move or relax hands. Flat burgundy background, same portrait crop and exact figure placement as Image 1; not the pose of Image 2. No text, no yellow spheres, no floating dots. Registered animation cel, clean flat anime line art, constant character proportions.",
+    "references": [
+      "source frame 2502; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "90dd3c0796c41f7c8a4f70278bbeae0d382310484af16aea2ae1d87d698f6f32",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2508-v4-clean.png",
+    "prompt": "Use case: identity-preserve. Image 1 is an EXACT animation key-pose reference. Image 2 is the established Roxy mage design. Draw Roxy Greyrat from Mushoku Tensei replacing the performer in Image 1, with the EXACT same head center/size, head tilt, eye open/closed expression, torso, elbows, wrists, and all visible finger positions. Blue twin braids, blue eyes when open, tan mage coat with dark cuffs/straps, white shirt/dark tie, dark witch hat; naturally bare hands, no gloves/seams. IMPORTANT: OMIT ALL YELLOW BALLS from the output (they are composited separately), but retain the hand poses curved around their imaginary locations and reconstruct unobscured hat/clothes/skin behind them. Do NOT move or relax hands. Flat burgundy background, same portrait crop and exact figure placement as Image 1; not the pose of Image 2. No text, no yellow spheres, no floating dots. Registered animation cel, clean flat anime line art, constant character proportions.",
+    "references": [
+      "source frame 2508; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "179736833b90736b8dda58747d27a514a02cc76432245c23feb0f84fa10b857e",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2514-v4-clean.png",
+    "prompt": "Use case: identity-preserve. Image 1 is an EXACT animation key-pose reference. Image 2 is the established Roxy mage design. Draw Roxy Greyrat from Mushoku Tensei replacing the performer in Image 1, with the EXACT same head center/size, head tilt, eye open/closed expression, torso, elbows, wrists, and all visible finger positions. Blue twin braids, blue eyes when open, tan mage coat with dark cuffs/straps, white shirt/dark tie, dark witch hat; naturally bare hands, no gloves/seams. IMPORTANT: OMIT ALL YELLOW BALLS from the output (they are composited separately), but retain the hand poses curved around their imaginary locations and reconstruct unobscured hat/clothes/skin behind them. Do NOT move or relax hands. Flat burgundy background, same portrait crop and exact figure placement as Image 1; not the pose of Image 2. No text, no yellow spheres, no floating dots. Registered animation cel, clean flat anime line art, constant character proportions.",
+    "references": [
+      "source frame 2514; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "77c29922411a3355c79ce3c351610db3eaf378c4e6ed826bbac5d8ee2cb1283f",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2517-v4-clean.png",
+    "prompt": "Use case: identity-preserve. Image 1 is an EXACT animation key-pose reference. Image 2 is the established Roxy mage design. Draw Roxy Greyrat from Mushoku Tensei replacing the performer in Image 1, with the EXACT same head center/size, head tilt, eye open/closed expression, torso, elbows, wrists, and all visible finger positions. Blue twin braids, blue eyes when open, tan mage coat with dark cuffs/straps, white shirt/dark tie, dark witch hat; naturally bare hands, no gloves/seams. IMPORTANT: OMIT ALL YELLOW BALLS from the output (they are composited separately), but retain the hand poses curved around their imaginary locations and reconstruct unobscured hat/clothes/skin behind them. Do NOT move or relax hands. Flat burgundy background, same portrait crop and exact figure placement as Image 1; not the pose of Image 2. No text, no yellow spheres, no floating dots. Registered animation cel, clean flat anime line art, constant character proportions.",
+    "references": [
+      "source frame 2517; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "13638fd93d1a69961df01efff18eb9cfc72d5e5ac419a54d484cc11abc495dd1",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2520-v4-clean.png",
+    "prompt": "Use case: identity-preserve. Image 1 is an EXACT animation key-pose reference. Image 2 is the established Roxy mage design. Draw Roxy Greyrat from Mushoku Tensei replacing the performer in Image 1, with the EXACT same head center/size, head tilt, eye open/closed expression, torso, elbows, wrists, and all visible finger positions. Blue twin braids, blue eyes when open, tan mage coat with dark cuffs/straps, white shirt/dark tie, dark witch hat; naturally bare hands, no gloves/seams. IMPORTANT: OMIT ALL YELLOW BALLS from the output (they are composited separately), but retain the hand poses curved around their imaginary locations and reconstruct unobscured hat/clothes/skin behind them. Do NOT move or relax hands. Flat burgundy background, same portrait crop and exact figure placement as Image 1; not the pose of Image 2. No text, no yellow spheres, no floating dots. Registered animation cel, clean flat anime line art, constant character proportions.",
+    "references": [
+      "source frame 2520; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "57f25844da6f514cf6abc5a4cbc1fa5f59ecd4201469771405f67f420fb21046",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2600-v4-clean.png",
+    "prompt": "Use case: identity-preserve. Image 1 is an EXACT animation key-pose reference. Image 2 is the established Roxy mage design. Draw Roxy Greyrat from Mushoku Tensei replacing the performer in Image 1, with the EXACT same head center/size, head tilt, eye open/closed expression, torso, elbows, wrists, and all visible finger positions. Blue twin braids, blue eyes when open, tan mage coat with dark cuffs/straps, white shirt/dark tie, dark witch hat; naturally bare hands, no gloves/seams. IMPORTANT: OMIT ALL YELLOW BALLS from the output (they are composited separately), but retain the hand poses curved around their imaginary locations and reconstruct unobscured hat/clothes/skin behind them. Do NOT move or relax hands. Flat burgundy background, same portrait crop and exact figure placement as Image 1; not the pose of Image 2. No text, no yellow spheres, no floating dots. Registered animation cel, clean flat anime line art, constant character proportions. Additional registration constraint: the hand on the LEFT side of Image 1 hangs low, its palm is centered near x=400, y=780 in the 840x995 reference; keep it this low and in this exact cupping gesture, do not raise it toward the waist. The right hand remains at face height near x=640,y=365. Retain the exact arm reach and head placement of Image 1.",
+    "references": [
+      "source frame 2600; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "6595643f9f9f57917da58d73d6c2730408ec6b7a14ea732c5f0b3e0aab5178cf",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/sofa-front-v4.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is EDIT TARGET, Roxy's established awake sofa cel. Image 2 is pose reference only. Make a registered variant of Image 1 with Roxy's head facing almost straight toward camera, both blue eyes open, small quietly surprised mouth, and the duck facing front (small horizontal orange beak). Match the head/duck direction in Image 2. Keep exact same figure position/scale, seated legs/boots, bare resting hand, cream blouse/tan bow, navy skirt, blue braids, sleeping rabbit, sofa/cushions/dog/table and burgundy background of Image 1. No Japanese letters, no butterflies, no purple jacket, no red-haired character. No extra changes, same 16:9 canvas.",
+    "references": [
+      "assets/sofa-awake-v4.png",
+      "source frame 3356"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "e76a998be3fffeb0db17fc62baf6042988ad1b9daf406ebc56029232df4eaa90",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/sofa-right-v4.png",
+    "prompt": "Use case: precise-object-edit. Image 1 is EDIT TARGET, Roxy's established awake sofa cel. Image 2 is exact head-turn reference only. Create the animation variant where Roxy turns her head to SCREEN-RIGHT in a clear side/three-quarter profile, blue eyes open looking right, nose pointing right, small mouth. The duck on her head also faces SCREEN-RIGHT in side profile. Follow Image 2's head/neck/upper-shoulder orientation, but keep Roxy's blue braids and character design. Preserve exact position/scale, seated legs and boots, resting bare hand, cream blouse/tan bow, navy skirt, rabbit and all sofa/dog/table/background of Image 1. No letters or butterflies, no other character/costume. Same 16:9 registered cel. Do not move the camera.",
+    "references": [
+      "assets/sofa-awake-v4.png",
+      "source frame 3365"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "f1c1db49a13f916f667a9c6feffec59c952a6b518e9394747c8f599665cc5bb3",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2487-v4-clean.png",
+    "prompt": "Use case: identity-preserve. Image 1 is an EXACT animation key-pose reference. Image 2 is the established Roxy mage design. Draw Roxy Greyrat from Mushoku Tensei replacing the performer in Image 1, with the EXACT same head center/size, head tilt, eye open/closed expression, torso, elbows, wrists, and all visible finger positions. Blue twin braids, blue eyes when open, tan mage coat with dark cuffs/straps, white shirt/dark tie, dark witch hat; naturally bare hands, no gloves/seams. IMPORTANT: OMIT ALL YELLOW BALLS from the output (they are composited separately), but retain the hand poses curved around their imaginary locations and reconstruct unobscured hat/clothes/skin behind them. Do NOT move or relax hands. Flat burgundy background, same portrait crop and exact figure placement as Image 1; not the pose of Image 2. No text, no yellow spheres, no floating dots. Registered animation cel, clean flat anime line art, constant character proportions. Preserve the HALF-OPEN eyes from Image 1; do not close the eyes. Keep the left-side hand low and right-side hand at waist height exactly.",
+    "references": [
+      "source frame 2487; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "bd6f0250be77ec024f468039a347e54c142056f2aaf7e5dab012819a8618d6ef",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  },
+  {
+    "file": "assets/juggle-2523-v4-clean.png",
+    "prompt": "Use case: identity-preserve. Image 1 is an EXACT animation key-pose reference. Image 2 is the established Roxy mage design. Draw Roxy Greyrat from Mushoku Tensei replacing the performer in Image 1, with the EXACT same head center/size, head tilt, eye open/closed expression, torso, elbows, wrists, and all visible finger positions. Blue twin braids, blue eyes when open, tan mage coat with dark cuffs/straps, white shirt/dark tie, dark witch hat; naturally bare hands, no gloves/seams. IMPORTANT: OMIT ALL YELLOW BALLS from the output (they are composited separately), but retain the hand poses curved around their imaginary locations and reconstruct unobscured hat/clothes/skin behind them. Do NOT move or relax hands. Flat burgundy background, same portrait crop and exact figure placement as Image 1; not the pose of Image 2. No text, no yellow spheres, no floating dots. Registered animation cel, clean flat anime line art, constant character proportions. Keep the left-side cupping hand palm near x340,y680 in the 840x995 reference, with right-side hand near x580,y445. These exact wrist heights are essential. Preserve the half-open attentive eyes.",
+    "references": [
+      "source frame 2523; crop [1040,45,1880,1040]",
+      "assets/full-2500.png; crop [1040,45,1880,1040]"
+    ],
+    "tool": "built-in image_gen",
+    "sha256": "16dcb3e8d49571b0ba5493979c7ac7a435d256de43f10f2c535a1fcba4dd101c",
+    "size": [
+      1152,
+      1366
+    ],
+    "mode": "RGB",
+    "status": "used"
+  }
+]

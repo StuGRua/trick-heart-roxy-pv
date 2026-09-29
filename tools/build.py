@@ -27,12 +27,17 @@ def preflight():
     (ROOT/'review/build-environment.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2),flush=True)
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');ap.add_argument('--without-subtitles',action='store_true');args=ap.parse_args();preflight()
+    ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');ap.add_argument('--without-subtitles',action='store_true');ap.add_argument('--version',choices=['v3','v4'],default='v3');args=ap.parse_args();preflight()
     if args.check:return
     if not SOURCE.exists():
         subprocess.run([FFMPEG,'-v','error','-i',winpath(TASK/'research/source-1080-video.m4s'),'-i',winpath(TASK/'research/source-audio.m4s'),'-map','0:v:0','-map','1:a:0','-c','copy',winpath(SOURCE)],check=True)
-    steps=[['prepare.py'],['prepare_full.py'],['composite.py','--all'],['revision_composite.py','--all'],['revision3_composite.py','--all'],['revision_encode.py','--version','v3'],['revision3_verify.py','--sheets'],['revision3_verify.py']]
-    if not args.without_subtitles:steps.extend([['chinese_subtitles.py','--render','--encode'],['verify_chinese_subtitles.py']])
+    steps=[['prepare.py'],['prepare_full.py'],['composite.py','--all'],['revision_composite.py','--all'],['revision3_composite.py','--all']]
+    if args.version=='v4':
+        steps.extend([['revision4_composite.py','--all'],['revision_encode.py','--version','v4'],['revision4_verify.py','--sheets']])
+        if not args.without_subtitles:steps.extend([['chinese_subtitles.py','--version','v4','--render','--encode'],['revision4_verify.py']])
+    else:
+        steps.extend([['revision_encode.py','--version','v3'],['revision3_verify.py','--sheets'],['revision3_verify.py']])
+        if not args.without_subtitles:steps.extend([['chinese_subtitles.py','--render','--encode'],['verify_chinese_subtitles.py']])
     for step in steps:
         print('STEP',' '.join(step),flush=True)
         subprocess.run([sys.executable,str(ROOT/'tools'/step[0]),*step[1:]],cwd=ROOT,check=True)

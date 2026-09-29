@@ -1,0 +1,48 @@
+{
+  "frames": 3768,
+  "changed_frames": 1297,
+  "unchanged_v3_frames_exact": 2471,
+  "changes_confined_to_declared_intervals": true,
+  "deterministic_checks": 100,
+  "subtitle_boundary_checks": 100,
+  "subtitle_alpha_outside_changes": 0,
+  "no_subtitle_frames_identical": 704,
+  "juggle_pose_count": 13,
+  "subtitle_font": [
+    "ZCOOL KuaiLe",
+    "Regular"
+  ],
+  "input_validation": true,
+  "outputs": {
+    "roxy-full-v4.mp4": {
+      "sha256": "1d5b0fcd2636c806e826a5d65335208524be398162db46f1f73f3c0cce0f8a79",
+      "bytes": 37516492,
+      "strict_decode": true,
+      "audio_unchanged": true,
+      "frames": 3768
+    },
+    "roxy-full-v4-zh.mp4": {
+      "sha256": "2722c2cd135b87d05787c31434ee4b952ab92f938c78793341a84eaeff78dfae",
+      "bytes": 38538791,
+      "strict_decode": true,
+      "audio_unchanged": true,
+      "frames": 3768
+    },
+    "roxy-full-comparison-v4.mp4": {
+      "sha256": "b928a31c6501f1bd4b5b276cab10b8306fd6e44cc13fe56e16889e616534d0a3",
+      "bytes": 81191379,
+      "strict_decode": true,
+      "audio_unchanged": true,
+      "frames": 3768
+    }
+  },
+  "preserved_v3": {
+    "roxy-full-v3.mp4": true,
+    "roxy-full-v3-zh.mp4": true,
+    "roxy-full-comparison-v3.mp4": true
+  },
+  "audio_hashes": {
+    "copy": "SHA256=c4dba6ed4c3ed4e2707e246610a5dc94d0fb7c538b1d02542b700a91928bf425",
+    "pcm_s16le": "SHA256=dcaf95e0538b415d14601725d923a6364c06f12b98e3c6170556f6d63f2b85bd"
+  }
+}

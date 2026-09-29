@@ -1,0 +1,84 @@
+{
+  "fps": 24,
+  "frames": 3768,
+  "preserved_media": {
+    "roxy-full-v3.mp4": "5d8558c64973fe504fd5a373f03d6fe7f0698945e9322de2f485d0765e1c6127",
+    "roxy-full-v3-zh.mp4": "ff1a1a6c2154ca0ccac9c1b33144468e0cf83be20eb56dd7fa2eb1b07eb3c9d6",
+    "roxy-full-comparison-v3.mp4": "5d04448bf81c089445478d2f950628d2d1a2f0aa96914ddc91a0b8c4b58ab691"
+  },
+  "witness_frames": [
+    6,
+    12,
+    21,
+    48,
+    205,
+    218,
+    220,
+    350,
+    1117,
+    1260,
+    1506,
+    1930,
+    1936,
+    2024,
+    2419,
+    2446,
+    2472,
+    2484,
+    2487,
+    2490,
+    2496,
+    2502,
+    2508,
+    2514,
+    2517,
+    2520,
+    2523,
+    2598,
+    2600,
+    2630,
+    2670,
+    2710,
+    2750,
+    2774,
+    2778,
+    3083,
+    3294,
+    3318,
+    3319,
+    3320,
+    3345,
+    3355,
+    3356,
+    3365,
+    3368,
+    3376,
+    3377,
+    3383,
+    3439,
+    3720
+  ],
+  "expression_events": [
+    {
+      "start": 1113,
+      "end": 1118,
+      "asset": "smile-closed-mouth-v4"
+    },
+    {
+      "start": 2440,
+      "end": 2448,
+      "asset": "wink-v4"
+    },
+    {
+      "start": 3342,
+      "end": 3349,
+      "asset": "blink-v4"
+    },
+    {
+      "start": 3356,
+      "end": 3397,
+      "asset": "sofa-awake-v4"
+    }
+  ],
+  "visual_acceptance": "Real source/v3/v4 continuous clips and contact sheets are required in addition to these machine contracts."
+}

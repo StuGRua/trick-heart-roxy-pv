@@ -1,5 +1,5 @@
 """分别打包白名单代码与非MIT资源；不包含原曲、原PV或成片。"""
-import hashlib,json,zipfile
+import argparse,hashlib,json,zipfile
 from pathlib import Path
 from check_public import ROOT,public_files,main as check_public
 
@@ -17,7 +17,7 @@ def write_zip(name,entries):
         for n,r in index.items():assert sha(z.read('trick-heart-roxy-pv/'+n))==r['sha256']
     return {'file':name,'bytes':p.stat().st_size,'sha256':sha(p.read_bytes()),'files':len(entries)}
 
-def main():
+def main(version=None):
     check_public()
     code={n:p.read_bytes() for n,p in public_files()}
     resources=json.loads((ROOT/'assets/resources.json').read_text())['files'];art={}
@@ -25,7 +25,9 @@ def main():
         p=(ROOT/name).resolve();p.relative_to(ROOT);b=p.read_bytes()
         assert sha(b)==r['sha256'],name;art[name]=b
     art['ASSET-NOTICE.md']=(ROOT/'ASSET-NOTICE.md').read_bytes()
-    records=[write_zip('trick-heart-roxy-pv-source.zip',code),write_zip('trick-heart-roxy-pv-resources.zip',art)]
-    (ROOT/'deliverables/release-packages.json').write_text(json.dumps({'packages':records,'published':False,'original_media_included':False},indent=2));print(json.dumps(records,indent=2))
+    suffix='-'+version if version else ''
+    records=[write_zip(f'trick-heart-roxy-pv-source{suffix}.zip',code),write_zip(f'trick-heart-roxy-pv-resources{suffix}.zip',art)]
+    (ROOT/f'deliverables/release-packages{suffix}.json').write_text(json.dumps({'packages':records,'published':False,'original_media_included':False},indent=2));print(json.dumps(records,indent=2))
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['v2','v4'],help='Archive label; public v2 contains the internal v4 revision');args=ap.parse_args();main(args.version)

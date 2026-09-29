@@ -4,6 +4,8 @@
 
 本版视觉二创：**StuG_III + GPT6Astra**。画面只保留中途和片尾两处英文视觉署名，不新增字幕署名。
 
+当前公开版本为 **v2.0.0（内部制作版本 v4）**：修复持牌穿模、小框漏发、道具重影与帘幕残留，补齐站立、13张杂耍姿态、表情和醒来转头。改进与踩坑总结见 [v2更新说明](docs/v2-release.md)，实现契约见 [内部v4修订说明](docs/v4-revision.md)。首版v1.0.0对应内部v3，仍可复现。
+
 感谢[无糖淀粉的千早爱音版](https://www.bilibili.com/video/BV1giez6QEzc)分享制作思路和方法。本项目参考其“人物差分原画＋程序跟随原PV合成”的工作流，制作常服与魔法师两套洛琪希造型。
 
 代码采用MIT许可；复现素材作为独立附件提供，许可范围见[素材说明](ASSET-NOTICE.md)。下载入口：[Releases](https://github.com/StuGRua/trick-heart-roxy-pv/releases/latest)。
@@ -13,7 +15,7 @@
 - 图像模型制作可复用人物原画与姿态/表情差分；Python/OpenCV负责整体跟踪、遮罩、前景恢复和按帧合成。
 - 78个连续合成区间；原画、手势切换、裸手重绘和字幕事件都有明确帧号。
 - 正片1920×1080、24fps、3768帧、157秒；复制原AAC音轨并保留157.013333秒尾包。
-- 原v3、中文字幕v3-zh与原片同步对比可在同一审阅页切换，支持拖动、逐帧、慢放和片段循环。
+- 当前正片、中文字幕版与原片同步对比可在同一审阅页切换，并保留初版v3入口，支持拖动、逐帧、慢放和片段循环。
 - 字幕外像素保护、帧覆盖、原AAC/PCM一致性、乱序确定性和媒体完整解码验证。
 
 ## 文件边界
@@ -42,23 +44,23 @@ public-files.json列出全部可公开文件。发布工具严格使用白名单
 
 2. 准备支持AV1解码、libx264和drawtext的FFmpeg/FFprobe。可通过ROXY_FFMPEG、ROXY_FFPROBE指定路径；否则寻找常见工具目录或PATH。用ROXY_FONT指定对比标记字体，用ROXY_CREDIT_FONT指定英文视觉署名字体；已交付v3使用Times New Roman，字体文件不随仓库分发。
 
-3. 从[Releases](https://github.com/StuGRua/trick-heart-roxy-pv/releases/latest)下载trick-heart-roxy-pv-resources.zip，将包内trick-heart-roxy-pv/目录的内容合并到仓库根目录，避免形成同名嵌套目录。将有权使用的原视频source-1080-video.m4s及音轨source-audio.m4s放入research/，按source-baseline.json核对哈希；原视频和音轨不随资源包分发。
+3. 从[Releases](https://github.com/StuGRua/trick-heart-roxy-pv/releases/latest)下载trick-heart-roxy-pv-resources-v2.zip，将包内trick-heart-roxy-pv/目录的内容合并到仓库根目录，避免形成同名嵌套目录。将有权使用的原视频source-1080-video.m4s及音轨source-audio.m4s放入research/，按source-baseline.json核对哈希；原视频和音轨不随资源包分发。
 
 4. 执行：
 
        .venv/bin/python tools/build.py --check
-       .venv/bin/python tools/build.py
+       .venv/bin/python tools/build.py --version v4
        .venv/bin/python -m unittest discover -s tools -p 'test_*.py' -v
        .venv/bin/python tools/review_server.py --port 8847
 
-默认构建v3、同步对比和v3-zh。需要仅构建v3时使用--without-subtitles。打开 http://127.0.0.1:8847/review.html 。
+上述命令构建对外v2对应的内部v4正片、同步对比和v4-zh。`--version v3`可重建首版；为兼容旧用法，省略`--version`时仍按v3执行。`--without-subtitles`可跳过中文字幕版。打开 http://127.0.0.1:8847/review.html 。
 
 完整缓存建议预留15GB；缓存可以重新生成。图像模型重跑不保证相同原画，复现当前版本必须使用本次采用的素材。更换字体、库或编码器版本可能改变文件哈希。
 
 ## 检查与发布准备
 
     python3 tools/check_public.py
-    python3 tools/package_release.py
+    python3 tools/package_release.py --version v2
 
 生成的代码包与资源包分别位于deliverables/。资源包包含人物原画、用户提供译文等非MIT内容，不代表已取得原作或角色的公开再许可。这两条命令只在本地检查与打包，不自动上传或执行Git写操作。
 

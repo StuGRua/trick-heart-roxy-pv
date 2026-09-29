@@ -14,6 +14,13 @@ SOURCE=(DATA/'translation.txt').read_text(encoding='utf-8-sig').splitlines()
 CONFIG=json.loads((DATA/'cues.zh.json').read_text())
 CUES=CONFIG['cues']
 
+def configure(version='v3'):
+    """只切换底片/输出目录，字幕文字、事件和样式保持同一事实源。"""
+    if version not in ('v3','v4'):raise ValueError(version)
+    global BASE,DEST
+    BASE=ROOT/f'frames/full-composite-{version}'
+    DEST=ROOT/f'frames/full-composite-{version}-zh'
+
 def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def words(cue):return '\n'.join(SOURCE[i-1] for i in cue['source_lines']) if cue.get('line_break') else ' '.join(SOURCE[i-1] for i in cue['source_lines'])
 
@@ -101,18 +108,19 @@ def preview():
     (folder/'index.json').write_text(json.dumps(picks));print('Subtitle preview',len(picks),flush=True)
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--render',action='store_true');ap.add_argument('--encode',action='store_true');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--render',action='store_true');ap.add_argument('--encode',action='store_true');ap.add_argument('--version',choices=['v3','v4'],default='v3');args=ap.parse_args();configure(args.version)
     info=validate_inputs();export_text();print(json.dumps(info,ensure_ascii=False),flush=True)
     if args.render:
         DEST.mkdir(exist_ok=True);records=[]
-        with ProcessPoolExecutor(max_workers=4,mp_context=multiprocessing.get_context('spawn')) as pool:
+        with ProcessPoolExecutor(max_workers=4,mp_context=multiprocessing.get_context('spawn'),initializer=configure,initargs=(args.version,)) as pool:
             for i,r in enumerate(pool.map(one,range(3768),chunksize=16)):
                 records.append(r)
                 if i%240==0:print('Subtitle frames',i,'/3768',flush=True)
-        (ROOT/'review/subtitle-frame-verification.json').write_text(json.dumps(records,indent=2))
+        record_name='subtitle-frame-verification.json' if args.version=='v3' else f'{args.version}-subtitle-frame-verification.json'
+        (ROOT/'review'/record_name).write_text(json.dumps(records,indent=2))
     elif not args.encode:preview()
     if args.encode:
         assert len(list(DEST.glob('*.png')))==3768
-        run('v3-zh-master',['-framerate','24','-start_number','0','-i',winpath(DEST/'%05d.png'),'-i',winpath(TASK/'research/source-audio.m4s'),'-map','0:v:0','-map','1:a:0','-c:v','libx264','-crf','15','-preset','slow','-pix_fmt','yuv420p','-c:a','copy'],ROOT/'deliverables/roxy-full-v3-zh.mp4')
+        run(f'{args.version}-zh-master',['-framerate','24','-start_number','0','-i',winpath(DEST/'%05d.png'),'-i',winpath(TASK/'research/source-audio.m4s'),'-map','0:v:0','-map','1:a:0','-c:v','libx264','-crf','15','-preset','slow','-pix_fmt','yuv420p','-c:a','copy'],ROOT/f'deliverables/roxy-full-{args.version}-zh.mp4')
 
 if __name__=='__main__':main()

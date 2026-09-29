@@ -9,8 +9,9 @@
 5. revision_encode.py：v3正片及同步对比。两侧使用相同整数帧时间基准；音频直接复制。
 6. chinese_subtitles.py：用户译文52行映射47条字幕，仅增加字幕alpha层，导出独立v3-zh。
 7. revision3_verify.py与verify_chinese_subtitles.py：源哈希、帧数、时长、AAC/PCM、乱序重渲、保护区域及完整解码。
+8. revision4_composite.py与revision4_juggle.py：独立视觉返修，修图层残留、补关键状态、按源手形选择十三张杂耍原画；v3入口不改。revision4_verify.py验证改动范围、两版字幕/音频与旧文件保护，详见v4-revision.md。
 
-输入原画清单集中在assets/的四份manifest，不保留逐批重复清单。v2派生画框由setup()确定性重建；不依赖弃用稿。字幕唯一文字输入为subtitles/translation.txt；时间、位置、字号、源行号只在cues.zh.json配置。
+输入原画清单集中在assets/的五份manifest，不保留逐批重复清单。v2派生画框由setup()确定性重建；不依赖弃用稿。字幕唯一文字输入为subtitles/translation.txt；时间、位置、字号、源行号只在cues.zh.json配置。
 
 同色不等于同一对象。源码中的颜色判断均需结合明确镜头区域、连通关系、事件边界或源道具层。转头与手势缺失应补画，不使用局部拉伸掩盖。新增素材时先核对裁切和姿态，再检查连续帧。
 

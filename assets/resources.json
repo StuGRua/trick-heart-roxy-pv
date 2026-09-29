@@ -444,6 +444,110 @@
     "subtitles/timing-review.md": {
       "sha256": "d2b8b564fc4ae9c6121d4dc407f5e2118aee068389e0c0d31427b305595690b3",
       "bytes": 3449
+    },
+    "assets/spiral-v4.png": {
+      "sha256": "1d38d7e08ea2d3e9629e6e762fef1af55c20b6a54039ff330bf8679e1032c712",
+      "bytes": 1558523
+    },
+    "assets/wink-v4.png": {
+      "sha256": "50d943c1a3b3b690476bae889006e0d37ce0b359734f62c7fa5cfd3647cd0986",
+      "bytes": 1550008
+    },
+    "assets/sofa-awake-v4.png": {
+      "sha256": "5aa4246c2d082f26c87a66be38a5b7190cf93fe95b119bd684dcd800d008c269",
+      "bytes": 1349680
+    },
+    "assets/smile-closed-mouth-v4.png": {
+      "sha256": "aca1914d5c75408463e5bec04f9c42a6e48bfe6a08e8e6fb73dce7718d173a46",
+      "bytes": 1444571
+    },
+    "assets/mage-laugh-v4.png": {
+      "sha256": "b43dd7b70317ba4810d6ccf518c5660fd17eaa5420aebaf83246bd3b758dc6fb",
+      "bytes": 1367301
+    },
+    "assets/blink-v4.png": {
+      "sha256": "23ab148398ed2ad33e8cad4c572aab8644ee8fd9843083c089e051c3229b6deb",
+      "bytes": 1443598
+    },
+    "assets/standing-alt-v4.png": {
+      "sha256": "b306645492b3a78f86843ee3ff50c58c6c415ba9ee9fe20ba0efe75a8f631d2a",
+      "bytes": 1411467
+    },
+    "assets/lap-clothing-v4.png": {
+      "sha256": "77e4fe879d9fdd44c5ad570aa34ebc1f86c3ec6100a941c8547691d847720a93",
+      "bytes": 1170355
+    },
+    "assets/ending-clothing-v4.png": {
+      "sha256": "be0f91899a01464cc2bcd5bc8a54e7c44765032232dc0ffed95b90f396a1ad15",
+      "bytes": 1170230
+    },
+    "assets/juggle-2472-v4.png": {
+      "sha256": "f2d8e37456c817639a82c49d7ea58ed5ee5c0b081f12f45c8f313d303652aefb",
+      "bytes": 1476946
+    },
+    "assets/juggle-2490-v4.png": {
+      "sha256": "510a0fb9d7b886423d6df5496dfd4aa9c5c89d0354d9e3d7adc89bce8357c1a2",
+      "bytes": 1451839
+    },
+    "assets/juggle-2472-v4-clean.png": {
+      "sha256": "6aeb7529b2bbfc6594234a5eeb7dc38b0ab75c44f3c5c3f8393355ebf5ed83e9",
+      "bytes": 1582936
+    },
+    "assets/juggle-2490-v4-clean.png": {
+      "sha256": "5a9266af1981ee17f4aab0a3d98f0e0aa3646fd8e5b0c052ffb074986827a550",
+      "bytes": 1564138
+    },
+    "assets/juggle-2478-v4-clean.png": {
+      "sha256": "7c7ed77cb66186d01850dfe492076c31c4f26382f75db41dff1b819ef9d731ea",
+      "bytes": 1454160
+    },
+    "assets/juggle-2484-v4-clean.png": {
+      "sha256": "f8c3d1337ba24a2c37232677cfc5bcffdad50cf5b1ba6ae4a4cd052bcee2e991",
+      "bytes": 1466204
+    },
+    "assets/juggle-2496-v4-clean.png": {
+      "sha256": "4ac55012c3263579788137f696c5546595a577ecb82a5bb11ef26b32fc610112",
+      "bytes": 1470953
+    },
+    "assets/juggle-2502-v4-clean.png": {
+      "sha256": "90dd3c0796c41f7c8a4f70278bbeae0d382310484af16aea2ae1d87d698f6f32",
+      "bytes": 1470107
+    },
+    "assets/juggle-2508-v4-clean.png": {
+      "sha256": "179736833b90736b8dda58747d27a514a02cc76432245c23feb0f84fa10b857e",
+      "bytes": 1456093
+    },
+    "assets/juggle-2514-v4-clean.png": {
+      "sha256": "77c29922411a3355c79ce3c351610db3eaf378c4e6ed826bbac5d8ee2cb1283f",
+      "bytes": 1467378
+    },
+    "assets/juggle-2517-v4-clean.png": {
+      "sha256": "13638fd93d1a69961df01efff18eb9cfc72d5e5ac419a54d484cc11abc495dd1",
+      "bytes": 1476139
+    },
+    "assets/juggle-2520-v4-clean.png": {
+      "sha256": "57f25844da6f514cf6abc5a4cbc1fa5f59ecd4201469771405f67f420fb21046",
+      "bytes": 1471813
+    },
+    "assets/juggle-2600-v4-clean.png": {
+      "sha256": "6595643f9f9f57917da58d73d6c2730408ec6b7a14ea732c5f0b3e0aab5178cf",
+      "bytes": 1467600
+    },
+    "assets/sofa-front-v4.png": {
+      "sha256": "e76a998be3fffeb0db17fc62baf6042988ad1b9daf406ebc56029232df4eaa90",
+      "bytes": 1384379
+    },
+    "assets/sofa-right-v4.png": {
+      "sha256": "f1c1db49a13f916f667a9c6feffec59c952a6b518e9394747c8f599665cc5bb3",
+      "bytes": 1383951
+    },
+    "assets/juggle-2487-v4-clean.png": {
+      "sha256": "bd6f0250be77ec024f468039a347e54c142056f2aaf7e5dab012819a8618d6ef",
+      "bytes": 1471056
+    },
+    "assets/juggle-2523-v4-clean.png": {
+      "sha256": "16dcb3e8d49571b0ba5493979c7ac7a435d256de43f10f2c535a1fcba4dd101c",
+      "bytes": 1458792
     }
   }
 }
