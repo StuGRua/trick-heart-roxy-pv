@@ -1,71 +1,49 @@
 # Trick Heart — Roxy Visual Fan Edit
 
-《トリックハート》洛琪希视觉二创的Python制作工程。保留原PV构图、日文歌词、道具、镜头顺序与原音轨，以常服和魔法师两套洛琪希造型替换人物。另提供使用站酷快乐体的独立中文字幕版。
+《トリックハート》洛琪希视觉二创。AI绘制人物与动作差分，Python/OpenCV负责跟踪、遮罩和合成，FFmpeg输出成片。提供中文字幕版和原PV同步对比。
 
-本版视觉二创：**StuG_III + GPT6Astra**。画面只保留中途和片尾两处英文视觉署名，不新增字幕署名。
+视觉二创：**StuG_III + GPT6Astra**。
 
-当前公开版本为 **v2.0.0（内部制作版本 v4）**：修复持牌穿模、小框漏发、道具重影与帘幕残留，补齐站立、13张杂耍姿态、表情和醒来转头。改进与踩坑总结见 [v2更新说明](docs/v2-release.md)，实现契约见 [内部v4修订说明](docs/v4-revision.md)。首版v1.0.0对应内部v3，仍可复现。
+[v2下载](https://github.com/StuGRua/trick-heart-roxy-pv/releases/latest) · [改进与踩坑记录](docs/v2-release.md)
 
-感谢[无糖淀粉的千早爱音版](https://www.bilibili.com/video/BV1giez6QEzc)分享制作思路和方法。本项目参考其“人物差分原画＋程序跟随原PV合成”的工作流，制作常服与魔法师两套洛琪希造型。
+## v2改进
 
-代码采用MIT许可；复现素材作为独立附件提供，许可范围见[素材说明](ASSET-NOTICE.md)。下载入口：[Releases](https://github.com/StuGRua/trick-heart-roxy-pv/releases/latest)。
+- 修复持牌穿模、画框漏红发、白手套残留、道具重影和帘幕残影。
+- 补齐站立动作、13张杂耍姿态、表情变化及醒来转头。
+- 重画常服特写，修正鸭子重复与人物出框。
 
-## 工程内容
+## 复现
 
-- 图像模型制作可复用人物原画与姿态/表情差分；Python/OpenCV负责整体跟踪、遮罩、前景恢复和按帧合成。
-- 78个连续合成区间；原画、手势切换、裸手重绘和字幕事件都有明确帧号。
-- 正片1920×1080、24fps、3768帧、157秒；复制原AAC音轨并保留157.013333秒尾包。
-- 当前正片、中文字幕版与原片同步对比可在同一审阅页切换，并保留初版v3入口，支持拖动、逐帧、慢放和片段循环。
-- 字幕外像素保护、帧覆盖、原AAC/PCM一致性、乱序确定性和媒体完整解码验证。
+已验证环境：Windows + WSL、Python 3.12、FFmpeg 6.0。帧缓存建议预留15GB。
 
-## 文件边界
+1. 下载Release中的`trick-heart-roxy-pv-resources-v2.zip`，将包内目录的内容合并到仓库根目录。
+2. 将有权使用的原视频`source-1080-video.m4s`和音轨`source-audio.m4s`放入`research/`，按`source-baseline.json`核对输入。附件不含原视频与音轨。
+3. 安装依赖并构建：
 
-| 目录 | 用途 | 进入代码仓库 |
-| --- | --- | --- |
-| tools/ | 构建、渲染、验证和审阅服务 | 是 |
-| assets/ 中的JSON | 已脱敏的原画清单、提示词和裁切配置 | 是 |
-| assets/fonts/ | 未修改的站酷快乐体及OFL许可 | 是 |
-| assets/ 中的PNG | 本项目采用的制作原画 | 否，单独资源包 |
-| subtitles/ | 字幕事件、样式和输入哈希 | 配置进入；译文与派生字幕在资源包 |
-| research/ | 原始媒体输入及基线 | 只包含哈希基线 |
-| frames/、review/、deliverables/、.venv/ | 缓存、检查证据、输出和环境 | 否 |
-| tests/ | 当前交付的验证基线 | 是 |
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python tools/build.py --check
+.venv/bin/python tools/build.py --version v4
+.venv/bin/python tools/review_server.py --port 8847
+```
 
-public-files.json列出全部可公开文件。发布工具严格使用白名单，不直接打包工作目录。原作媒体不会随代码或资源包分发。
+打开 http://127.0.0.1:8847/review.html 。输出位于`deliverables/`，可切换正片、中文字幕和同步对比，支持逐帧、慢放与片段循环。
 
-## 运行
+FFmpeg/FFprobe可用`ROXY_FFMPEG`、`ROXY_FFPROBE`指定；对比字体和署名字体可用`ROXY_FONT`、`ROXY_CREDIT_FONT`指定。采用的署名字体为Times New Roman，需自行提供。
 
-已验证的环境为Windows + WSL、Python 3.12、Windows FFmpeg 6.0。其他环境需自行验证，尤其是字体和编码器版本。依赖固定于requirements.txt。
+复现请使用资源包中的原画；重新生成图片或更换字体、依赖、编码器会改变结果。构建参数与历史版本说明见[制作流程](docs/pipeline.md)。
 
-1. 在仓库根目录创建环境并安装依赖：
+## 制作资料
 
-       python3 -m venv .venv
-       .venv/bin/python -m pip install -r requirements.txt
+- [制作流程](docs/pipeline.md)与[合成规则](docs/v4-revision.md)
+- [原画提示词与来源](assets/revision4-manifest.json)
+- [验证说明](docs/validation.md)
 
-2. 准备支持AV1解码、libx264和drawtext的FFmpeg/FFprobe。可通过ROXY_FFMPEG、ROXY_FFPROBE指定路径；否则寻找常见工具目录或PATH。用ROXY_FONT指定对比标记字体，用ROXY_CREDIT_FONT指定英文视觉署名字体；已交付v3使用Times New Roman，字体文件不随仓库分发。
+## 来源与许可
 
-3. 从[Releases](https://github.com/StuGRua/trick-heart-roxy-pv/releases/latest)下载trick-heart-roxy-pv-resources-v2.zip，将包内trick-heart-roxy-pv/目录的内容合并到仓库根目录，避免形成同名嵌套目录。将有权使用的原视频source-1080-video.m4s及音轨source-audio.m4s放入research/，按source-baseline.json核对哈希；原视频和音轨不随资源包分发。
+原曲／原PV：[MIMI《トリックハート》feat. 重音テトSV](https://www.bilibili.com/video/BV1ohuu6LEBP)。角色：洛琪希／《无职转生》。
 
-4. 执行：
+感谢[无糖淀粉的千早爱音版](https://www.bilibili.com/video/BV1giez6QEzc)分享制作方法。
 
-       .venv/bin/python tools/build.py --check
-       .venv/bin/python tools/build.py --version v4
-       .venv/bin/python -m unittest discover -s tools -p 'test_*.py' -v
-       .venv/bin/python tools/review_server.py --port 8847
-
-上述命令构建对外v2对应的内部v4正片、同步对比和v4-zh。`--version v3`可重建首版；为兼容旧用法，省略`--version`时仍按v3执行。`--without-subtitles`可跳过中文字幕版。打开 http://127.0.0.1:8847/review.html 。
-
-完整缓存建议预留15GB；缓存可以重新生成。图像模型重跑不保证相同原画，复现当前版本必须使用本次采用的素材。更换字体、库或编码器版本可能改变文件哈希。
-
-## 检查与发布准备
-
-    python3 tools/check_public.py
-    python3 tools/package_release.py --version v2
-
-生成的代码包与资源包分别位于deliverables/。资源包包含人物原画、用户提供译文等非MIT内容，不代表已取得原作或角色的公开再许可。这两条命令只在本地检查与打包，不自动上传或执行Git写操作。
-
-详细制作结构见[制作流程](docs/pipeline.md)，复现与验证边界见[验证说明](docs/validation.md)。代码使用[MIT](LICENSE)，原曲、原PV、角色、译文、人物图与字体的范围见[素材说明](ASSET-NOTICE.md)。
-
-## 为什么目前是repo而不是skill
-
-本项目的主要交付是确定的素材、时间轴、合成规则、播放器和可运行代码，repo便于版本管理与复现。skill适合指导下一次如何准备原画、检查遮挡和调用这些脚本；它不能取代这里的代码或素材。等第二个不同PV验证了可复用接口，再提供指向repo的轻量skill，避免把本片专用规则包装成通用能力。
+代码采用[MIT](LICENSE)，字体保留OFL许可；音乐、PV、角色和制作素材的范围见[素材说明](ASSET-NOTICE.md)。
