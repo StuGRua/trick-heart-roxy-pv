@@ -1,0 +1,78 @@
+{
+  "version": "v3",
+  "source_hashes_unchanged": true,
+  "verified_inputs": [
+    "source-1080-video.m4s",
+    "source-audio.m4s",
+    "source-proxy-video.m4s"
+  ],
+  "frames": 3768,
+  "fps": 24,
+  "aac_and_pcm_identical": true,
+  "aac_sha256": "SHA256=c4dba6ed4c3ed4e2707e246610a5dc94d0fb7c538b1d02542b700a91928bf425",
+  "pcm_sha256": "SHA256=dcaf95e0538b415d14601725d923a6364c06f12b98e3c6170556f6d63f2b85bd",
+  "deterministic_frames": [
+    576,
+    2712,
+    3003,
+    1875,
+    24,
+    1075,
+    3720,
+    205,
+    219,
+    549,
+    591,
+    594,
+    597,
+    603,
+    1064,
+    1856,
+    576
+  ],
+  "unchanged_v2_frames_exact": 2993,
+  "bare_hand_redrawn_frames": 358,
+  "credit_intervals": [
+    [
+      2702,
+      2785
+    ],
+    [
+      3698,
+      3768
+    ]
+  ],
+  "credit_lines": [
+    "MUSHOKU TENSEI: ROXY",
+    "VISUAL FAN EDIT",
+    "StuG_III + GPT6Astra"
+  ],
+  "credit_font": {
+    "name": "times.ttf",
+    "sha256": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5"
+  },
+  "media": {
+    "roxy-full-v3.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "frames": 3768,
+      "video_duration": "157.000000",
+      "audio_duration": "157.013333",
+      "bytes": 37308505,
+      "sha256": "5d8558c64973fe504fd5a373f03d6fe7f0698945e9322de2f485d0765e1c6127",
+      "strict_decode": true
+    },
+    "roxy-full-comparison-v3.mp4": {
+      "width": 3840,
+      "height": 1144,
+      "frames": 3768,
+      "video_duration": "157.000000",
+      "audio_duration": "157.013333",
+      "bytes": 80991081,
+      "sha256": "5d04448bf81c089445478d2f950628d2d1a2f0aa96914ddc91a0b8c4b58ab691",
+      "strict_decode": true
+    }
+  },
+  "code_license": "MIT",
+  "creative_acceptance": "Pending user review; machine tests do not prove aesthetic acceptance."
+}

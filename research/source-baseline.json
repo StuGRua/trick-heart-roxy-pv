@@ -1,0 +1,59 @@
+{
+  "source_page": "https://www.bilibili.com/video/BV1ohuu6LEBP",
+  "files": {
+    "source-1080-video.m4s": {
+      "sha256": "2b7d4d870fc82bbcc9bd7e946a5e836648569a21c03cf7346c8b6d46c59c33d2",
+      "size": 12290133,
+      "streams": [
+        {
+          "codec_name": "av1",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "24/1",
+          "r_frame_rate": "24/1",
+          "time_base": "1/16000",
+          "start_time": "0.000000",
+          "duration": "157.000000",
+          "nb_read_frames": "3768"
+        }
+      ]
+    },
+    "source-audio.m4s": {
+      "sha256": "8c185f1b564c0ee9d9d1464404e65227fb1fa81b790ff0bf3d8e296f7d384430",
+      "size": 3861840,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "avg_frame_rate": "0/0",
+          "r_frame_rate": "0/0",
+          "time_base": "1/48000",
+          "start_time": "0.000000",
+          "duration": "157.013333",
+          "nb_read_frames": "7360",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ]
+    },
+    "source-proxy-video.m4s": {
+      "sha256": "df6fe54c92bf21b9f9abb2218b6edcc08ee12b133132b84f9474eb956d28cf6c",
+      "size": 6953497,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 852,
+          "height": 480,
+          "avg_frame_rate": "24/1",
+          "r_frame_rate": "24/1",
+          "time_base": "1/16000",
+          "start_time": "0.000000",
+          "duration": "157.000000",
+          "nb_read_frames": "3768"
+        }
+      ]
+    }
+  }
+}

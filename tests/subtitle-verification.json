@@ -1,0 +1,39 @@
+{
+  "translation_lines": 52,
+  "cues": 47,
+  "font": [
+    "ZCOOL KuaiLe",
+    "Regular"
+  ],
+  "missing_glyphs": [],
+  "input_hashes": {
+    "subtitles/translation.txt": "805eea89491fb5161c075c6de8d67ce132eb56b33ab470eebcab0dbff413379e",
+    "assets/fonts/ZCOOLKuaiLe-Regular.ttf": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d",
+    "assets/fonts/ZCOOLKuaiLe-OFL.txt": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d",
+    "deliverables/roxy-full-v3.mp4": "5d8558c64973fe504fd5a373f03d6fe7f0698945e9322de2f485d0765e1c6127",
+    "deliverables/roxy-full-comparison-v3.mp4": "5d04448bf81c089445478d2f950628d2d1a2f0aa96914ddc91a0b8c4b58ab691"
+  },
+  "frames": 3768,
+  "fps": 24,
+  "captioned_frames": 3064,
+  "no_caption_frames_exact": 704,
+  "all_base_frame_hashes_unchanged": true,
+  "all_output_frame_hashes_verified": true,
+  "outside_subtitle_alpha_changed_pixels": 0,
+  "deterministic_boundary_frames": 147,
+  "existing_english_credits_preserved": true,
+  "audio_hashes": {
+    "copy": "SHA256=c4dba6ed4c3ed4e2707e246610a5dc94d0fb7c538b1d02542b700a91928bf425",
+    "pcm_s16le": "SHA256=dcaf95e0538b415d14601725d923a6364c06f12b98e3c6170556f6d63f2b85bd"
+  },
+  "strict_decode": true,
+  "media": {
+    "file": "roxy-full-v3-zh.mp4",
+    "sha256": "ff1a1a6c2154ca0ccac9c1b33144468e0cf83be20eb56dd7fa2eb1b07eb3c9d6",
+    "bytes": 38332307,
+    "video_duration": "157.000000",
+    "audio_duration": "157.013333"
+  },
+  "timing_basis": "Source PV Japanese visual lyric events, not speech recognition or original subtitle timestamps",
+  "visual_review": "See SUBTITLE-README.md and review/chinese-subtitles/visual-review.json"
+}

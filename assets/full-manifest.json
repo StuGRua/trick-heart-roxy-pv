@@ -1,0 +1,587 @@
+[
+  {
+    "frame": 264,
+    "file": "assets/full-264.png",
+    "prompt": "Replace BOTH humans in first image by Roxy Migurdia from second design reference. LEFT standing magician = mage outfit from left of design, brown long coat black cuffs ivory boots blue-violet twin braids pointed wide witch hat, same reaching open hand pose. RIGHT seated/kneeling viewer = casual outfit from right of design, ivory blouse small ochre bow navy knee skirt black ankle boots no hat, same surprised sitting pose. Keep their exact positions, scale and gestures. Bare hands, no white gloves. Blue eyes, no cheek heart marks. Make a production animation replacement frame: first image fixes all composition and pose; second fixes character identity/costume. Keep original flat burgundy background, borders, typography and all nonhuman props exactly. Clean flat 2D anime ink lines and restrained shading matching reference. 16:9, no layout changes or extra characters.",
+    "sha256": "c9fc42eeebd303501da95d3b03773eb5748d77dbe4e2b9fd653f320a91152514",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/00264.png",
+    "included": true
+  },
+  {
+    "frame": 1440,
+    "file": "assets/full-1440.png",
+    "prompt": "Replace the right-side girl by CASUAL Roxy from right half of second design. Exact same side profile facing LEFT, holding original yellow paper cup to her mouth. Blue-violet twin braids blue eye ivory blouse small ochre bow, no hat. Preserve the yellow cup and white string exactly at same position. Make a production animation replacement frame: first image fixes all composition and pose; second fixes character identity/costume. Keep original flat burgundy background, borders, typography and all nonhuman props exactly. Clean flat 2D anime ink lines and restrained shading matching reference. 16:9, no layout changes or extra characters.",
+    "sha256": "c53e77b752c0ee0f368186106752efceb9d01ce5e7ac22b3948b8f176299e62e",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01440.png",
+    "included": true
+  },
+  {
+    "frame": 1512,
+    "file": "assets/full-1512.png",
+    "prompt": "Replace the left-side magician by MAGE Roxy from left half of second design. Exact same pose facing RIGHT, closed happy eye, holding yellow paper cup next to ear with bare hand, other arm across body. Blue-violet twin braids, brown long coat black cuffs white shirt dark tie, pointed wide witch hat sized to composition. Preserve yellow cup and white string. No white gloves or cheek hearts. Make a production animation replacement frame: first image fixes all composition and pose; second fixes character identity/costume. Keep original flat burgundy background, borders, typography and all nonhuman props exactly. Clean flat 2D anime ink lines and restrained shading matching reference. 16:9, no layout changes or extra characters.",
+    "sha256": "b2369ebd6522ee3b2036c7210cc61fb5b935cb08aab6b3890fa8d1e814c471a7",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01512.png",
+    "included": true
+  },
+  {
+    "frame": 888,
+    "file": "assets/full-888.png",
+    "prompt": "Edit first PV frame, replace its human by Roxy Migurdia matching second character design. CASUAL Roxy, huge sparkling starry blue eyes, same close frontal face, blue-violet twin braids ivory blouse ochre bow. NO hat. Keep head placement. Preserve EXACT framing, position, pose, original border, burgundy background and props. Keep animals and props untouched. Clean flat 2D anime ink line style matching second. Remove all lyric typography from the new frame so it can be restored as original separate layer later. No red hair or original clothes. 16:9.",
+    "sha256": "e85c27a1cc96d2b08c4b90b4dec48129bfbfe654bd34f61c41497d1b5347ccaf",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/00888.png",
+    "included": true
+  },
+  {
+    "frame": 1140,
+    "file": "assets/full-1140.png",
+    "prompt": "Edit first PV frame, replace its human by Roxy Migurdia matching second character design. CASUAL Roxy with CLOSED eyes and big happy smile, same frontal close face and tilt, blue-violet twin braids ivory blouse ochre bow. NO hat. Preserve EXACT framing, position, pose, original border, burgundy background and props. Keep animals and props untouched. Clean flat 2D anime ink line style matching second. Remove all lyric typography from the new frame so it can be restored as original separate layer later. No red hair or original clothes. 16:9.",
+    "sha256": "375fd6900d42401603206d82a91fd91d31dda0280878daf9f296f33b0e077594",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01140.png",
+    "included": true
+  },
+  {
+    "frame": 1188,
+    "file": "assets/full-1188.png",
+    "prompt": "Edit first PV frame, replace its human by Roxy Migurdia matching second character design. CASUAL Roxy with excited starry blue eyes and two fists raised to chest in exactly the same pose. Blue-violet twin braids, ivory blouse ochre bow. NO hat. Preserve EXACT framing, position, pose, original border, burgundy background and props. Keep animals and props untouched. Clean flat 2D anime ink line style matching second. Remove all lyric typography from the new frame so it can be restored as original separate layer later. No red hair or original clothes. 16:9.",
+    "sha256": "113528b9834bd00254f29720683f995da9a3e11a48b200cfb7ddde11ed2f8815",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01188.png",
+    "included": true
+  },
+  {
+    "frame": 1260,
+    "file": "assets/full-1260.png",
+    "prompt": "Edit first PV frame, replace its human by Roxy Migurdia matching second character design. MAGE Roxy, WITHOUT HAT ON HEAD, blue-violet twin braids brown mage coat black cuffs white shirt dark tie; bare hand raised explaining the dove bubble, other hand holds original magic trick top hat in identical position (top hat is a prop). No white gloves, no cheek heart. Keep speech bubble dove unchanged. Preserve EXACT framing, position, pose, original border, burgundy background and props. Keep animals and props untouched. Clean flat 2D anime ink line style matching second. Remove all lyric typography from the new frame so it can be restored as original separate layer later. No red hair or original clothes. 16:9.",
+    "sha256": "0a2e415741df44d180a5bb8acb47150192253ac283688e31703dbef898a9b073",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01260.png",
+    "included": true
+  },
+  {
+    "frame": 464,
+    "file": "assets/full-464.png",
+    "prompt": "Replace human characters of first PV frame with Roxy Migurdia using second approved design. Both humans: LEFT MAGE Roxy in brown long mage coat black cuffs ivory boots witch hat, right CASUAL Roxy in ivory blouse ochre bow navy knee skirt black ankle boots. Exact same diagonal floating/dancing handclasp pose; blue-violet twin braids on both, right seen from back, left holds hat with other hand. Keep clasp exactly at same coordinates. Preserve exact composition, body gesture and scale, flat burgundy background and all nonhuman props. Clean flat 2D anime drawing matching second reference. Remove lyric typography for original layer restoration later. No red hair or original clothes. 16:9.",
+    "sha256": "40817704b512f79fb72a12f0b4988c369231dc40179355cd40d2caa19ed7ceae",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/00464.png",
+    "included": true
+  },
+  {
+    "frame": 1548,
+    "file": "assets/full-1548.png",
+    "prompt": "Replace human characters of first PV frame with Roxy Migurdia using second approved design. CASUAL Roxy in ivory blouse ochre bow, blue-violet twin braids flowing behind. Same left-facing half-profile startled pose, same yellow paper cup lowered from face. Preserve exact composition, body gesture and scale, flat burgundy background and all nonhuman props. Clean flat 2D anime drawing matching second reference. Remove lyric typography for original layer restoration later. No red hair or original clothes. 16:9.",
+    "sha256": "c8b7d4906dbf8ecf9028718c7a6a4af4474fe265fcae16ab4d8068af329307d5",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01548.png",
+    "included": true
+  },
+  {
+    "frame": 1608,
+    "file": "assets/full-1608.png",
+    "prompt": "Replace human characters of first PV frame with Roxy Migurdia using second approved design. MAGE Roxy in brown mage coat black cuffs, blue-violet twin braids, wide pointed hat. Same smile tilted head, left arm outstretched to left, other hand holds yellow cup at right. Bare hands, no cheek heart. Preserve exact composition, body gesture and scale, flat burgundy background and all nonhuman props. Clean flat 2D anime drawing matching second reference. Remove lyric typography for original layer restoration later. No red hair or original clothes. 16:9.",
+    "sha256": "1283889e89ad1335fb828d559acdaf21a05856f988592fbd828d5a38fe7a71de",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01608.png",
+    "included": true
+  },
+  {
+    "frame": 2328,
+    "file": "assets/full-2328.png",
+    "prompt": "Replace human characters of first PV frame with Roxy Migurdia using second approved design. MAGE Roxy in brown coat black cuffs white shirt dark tie and witch hat, blue-violet twin braids. Same gentle smile and full bouquet held in both bare hands. Keep tulips at exact same locations and colors. No white gloves or cheek heart. Preserve exact composition, body gesture and scale, flat burgundy background and all nonhuman props. Clean flat 2D anime drawing matching second reference. Remove lyric typography for original layer restoration later. No red hair or original clothes. 16:9.",
+    "sha256": "c1f3406d1768f578112e02c4fe3e86c45a8fadb5edf0885e1fce9bb6a318445c",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02328.png",
+    "included": true
+  },
+  {
+    "frame": 540,
+    "file": "assets/full-540.png",
+    "prompt": "Edit first animation frame replacing its human character by Roxy Migurdia matching second design reference. MAGE Roxy, closed eyes slight smile BOTH fists raised at sides exactly as source, brown mage coat black cuffs white shirt dark tie, blue-violet twin braids and wide pointed hat cropped by top frame. Bare hands, no white gloves, no red hair, no original suit or cheek heart. Preserve exact body gesture and all nonhuman props/background/border. Flat 2D anime drawing, restrained shading. Remove all lyric typography for separate restoration later. 16:9.",
+    "sha256": "80ab24694b9a225275a5c6400e1d5bc7c5106a9e8ec6109b84d6411ca126f36f",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/00540.png",
+    "included": true
+  },
+  {
+    "frame": 1158,
+    "file": "assets/full-1158.png",
+    "prompt": "Edit first animation frame replacing its human character by Roxy Migurdia matching second design reference. MAGE Roxy WITHOUT hat, nervous smile, one bare finger touching cheek in same pose, brown coat black cuffs white shirt dark tie and blue-violet twin braids. Keep large foreground back-of-head at bottom but change that red hair to blue-violet hair. No heart cheek mark. Bare hands, no white gloves, no red hair, no original suit or cheek heart. Preserve exact body gesture and all nonhuman props/background/border. Flat 2D anime drawing, restrained shading. Remove all lyric typography for separate restoration later. 16:9.",
+    "sha256": "feec00d9b73b87b2dcd063bcbd054fc8d98f2aceb7908366f0c2a16b5d54a74c",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01158.png",
+    "included": true
+  },
+  {
+    "frame": 1224,
+    "file": "assets/full-1224.png",
+    "prompt": "Edit first animation frame replacing its human character by Roxy Migurdia matching second design reference. MAGE Roxy, one hand on hip, same front-facing small smile and body placement. Brown mage coat black cuffs white shirt dark tie blue-violet twin braids wide pointed witch hat. Bare hands, no white gloves, no red hair, no original suit or cheek heart. Preserve exact body gesture and all nonhuman props/background/border. Flat 2D anime drawing, restrained shading. Remove all lyric typography for separate restoration later. 16:9.",
+    "sha256": "51ccdd0c6a251ceb9a7cbf30150b2724bbace16784430a34c577b2a29b77b794",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01224.png",
+    "included": true
+  },
+  {
+    "frame": 1944,
+    "file": "assets/full-1944.png",
+    "prompt": "Edit first animation frame replacing its human character by Roxy Migurdia matching second design reference. MAGE Roxy full body standing beside dog, same raised pointing finger, brown long mage coat black cuffs ivory knee boots wide pointed hat blue-violet twin braids. Same location and character height. Keep dog exactly unchanged. Bare hands, no white gloves, no red hair, no original suit or cheek heart. Preserve exact body gesture and all nonhuman props/background/border. Flat 2D anime drawing, restrained shading. Remove all lyric typography for separate restoration later. 16:9.",
+    "sha256": "c0b2f261429b69aea3eeba8685ea061626becb207ac2024d34145cc2dee9ccda",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01944.png",
+    "included": true
+  },
+  {
+    "frame": 2200,
+    "file": "assets/full-2200.png",
+    "prompt": "Replace human of first PV frame by Roxy Migurdia matching second design. MAGE Roxy, same half-body at right, one bare hand held palm up to left. Brown mage coat black cuffs white shirt dark tie pointed hat blue-violet twin braids, smile and blue eyes. Preserve exact composition, pose, scale and props. No red hair, original clothes, white gloves or cheek heart. Remove lyrics and all floating particles/butterflies from generated frame; they will be restored from original frame separately. Flat burgundy background, clean flat anime ink drawing. 16:9.",
+    "sha256": "f796d71ea5e8810db2283de46263a978c91d1d3d0460cd91f238f8b3aae39f08",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02200.png",
+    "included": true
+  },
+  {
+    "frame": 2225,
+    "file": "assets/full-2225.png",
+    "prompt": "Replace human of first PV frame by Roxy Migurdia matching second design. MAGE Roxy, same half-body at right, bare hand holding yellow tulip stem upright at left. Brown mage coat black cuffs white shirt dark tie pointed hat blue-violet twin braids, smile and blue eyes. Preserve exact composition, pose, scale and props. No red hair, original clothes, white gloves or cheek heart. Remove lyrics and all floating particles/butterflies from generated frame; they will be restored from original frame separately. Flat burgundy background, clean flat anime ink drawing. 16:9.",
+    "sha256": "b311fb63c617b1babc3d73bd12174b489f7620eb7a1977fa7bde2ebf39ffd24e",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02225.png",
+    "included": true
+  },
+  {
+    "frame": 2388,
+    "file": "assets/full-2388.png",
+    "prompt": "Replace human of first PV frame by Roxy Migurdia matching second design. MAGE Roxy very close face smiling teeth visible, bare hand holding one tall yellow tulip at left and bouquet at bottom right, identical pose. Brown mage coat black cuffs white shirt dark tie, blue-violet twin braids, hat cropped at top. Keep flowers identical. Preserve exact composition, pose, scale and props. No red hair, original clothes, white gloves or cheek heart. Remove lyrics and all floating particles/butterflies from generated frame; they will be restored from original frame separately. Flat burgundy background, clean flat anime ink drawing. 16:9.",
+    "sha256": "d9a66b52e9b1e81212789b4af50477631cd22e7e9f1b0f318465d93900a6f17c",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02388.png",
+    "included": true
+  },
+  {
+    "frame": 2410,
+    "file": "assets/full-2410.png",
+    "prompt": "Replace human of first PV frame by Roxy Migurdia matching second design. CASUAL Roxy, startled large blue eyes and open mouth, front close view holding huge yellow flower in front of face at right. Ivory blouse ochre bow no hat blue-violet twin braids. Preserve flower and leaves shape/size/position exactly. Preserve exact composition, pose, scale and props. No red hair, original clothes, white gloves or cheek heart. Remove lyrics and all floating particles/butterflies from generated frame; they will be restored from original frame separately. Flat burgundy background, clean flat anime ink drawing. 16:9.",
+    "sha256": "511a0f8c59b79e1cfb0a96c3e2c13e5a722d49df6c6b719654168c04cc807225",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02410.png",
+    "included": true
+  },
+  {
+    "frame": 2448,
+    "file": "assets/full-2448.png",
+    "prompt": "Replace ALL human content of first PV frame with Roxy Migurdia according to second approved design. CASUAL Roxy close frontal surprised round blue eyes and open O mouth, holding original blue-backed card in same bare hand/location. Ivory blouse ochre bow, blue-violet twin braids no hat. Match exact position, scale and gestures. Preserve nonhuman animals/props and original composition. Remove lyrics and butterflies from generated image for separate original overlays later. Flat burgundy background, clean anime ink illustration with restrained shading. No red hair or original hoodie. 16:9.",
+    "sha256": "60f418d61e09283402b000d86328ccc333ed97b5e5456d7b460dbf17e3880df3",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02448.png",
+    "included": true
+  },
+  {
+    "frame": 3120,
+    "file": "assets/full-3120.png",
+    "prompt": "Replace ALL human content of first PV frame with Roxy Migurdia according to second approved design. CASUAL Roxy seated alone on sofa leaning to left with closed eyes, ivory blouse ochre bow navy knee-length skirt and black ankle boots, blue-violet twin braids no hat. Keep her pose, one hand on sofa left, rabbit in lap, duck on head, dog asleep on floor, furniture and cushions EXACTLY unchanged. Match exact position, scale and gestures. Preserve nonhuman animals/props and original composition. Remove lyrics and butterflies from generated image for separate original overlays later. Flat burgundy background, clean anime ink illustration with restrained shading. No red hair or original hoodie. 16:9.",
+    "sha256": "411c77a3ec77f26f75e66cdcd96e1571424fc52b387d0354994b2d60c9fba53c",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/03120.png",
+    "included": true
+  },
+  {
+    "frame": 3330,
+    "file": "assets/full-3330.png",
+    "prompt": "Replace ALL human content of first PV frame with Roxy Migurdia according to second approved design. CASUAL Roxy half-body closeup sleepy half-open blue eyes gazing down-left with tilted head, blue-violet twin braids ivory blouse ochre bow no hat. Keep original white duck on head in same position. Match exact position, scale and gestures. Preserve nonhuman animals/props and original composition. Remove lyrics and butterflies from generated image for separate original overlays later. Flat burgundy background, clean anime ink illustration with restrained shading. No red hair or original hoodie. 16:9.",
+    "sha256": "3364cc41225183d0718f91a62303ab3c78ad962996244b98a93a6696c8df7788",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/03330.png",
+    "included": true
+  },
+  {
+    "frame": 3516,
+    "file": "assets/full-3516.png",
+    "prompt": "Replace ALL human content of first PV frame with Roxy Migurdia according to second approved design. CASUAL Roxy half-body frontal gentle smile, blue eyes, holding original blue card near lips with same bare hand. Blue-violet twin braids ivory blouse ochre bow no hat. Keep duck on head. Match exact position, scale and gestures. Preserve nonhuman animals/props and original composition. Remove lyrics and butterflies from generated image for separate original overlays later. Flat burgundy background, clean anime ink illustration with restrained shading. No red hair or original hoodie. 16:9.",
+    "sha256": "954fca75835acb2369ffa2ee3d9d4da53581a3b72b45ccefa9546c7a31d7a6b3",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/03516.png",
+    "included": true
+  },
+  {
+    "frame": 3640,
+    "file": "assets/full-3640.png",
+    "prompt": "Replace ALL human content of first PV frame with Roxy Migurdia according to second approved design. CASUAL Roxy full-body walking away seen from BACK. Blue-violet twin braids tied black ribbons, ivory blouse, navy knee-length skirt and black ankle boots. Preserve same walking step pose, gray crossbody satchel and blue-backed card tag. No witch hat or mage coat. Match exact position, scale and gestures. Preserve nonhuman animals/props and original composition. Remove lyrics and butterflies from generated image for separate original overlays later. Flat burgundy background, clean anime ink illustration with restrained shading. No red hair or original hoodie. 16:9.",
+    "sha256": "9bbc32830ce828cbe30ffb1c5b6fcc64ebd22c0e8f7a60d9ed484654d4e8bc2b",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/03640.png",
+    "included": true
+  },
+  {
+    "frame": 3675,
+    "file": "assets/full-3675.png",
+    "prompt": "Replace ALL human content of first PV frame with Roxy Migurdia according to second approved design. CASUAL Roxy half-body joyfully spreading both arms, closed eyes broad smile. Blue-violet twin braids, ivory blouse ochre bow navy skirt, gray shoulder satchel. No mage hat/coat. Keep rabbit at left, duck at right and dog in foreground exactly as original. Match exact position, scale and gestures. Preserve nonhuman animals/props and original composition. Remove lyrics and butterflies from generated image for separate original overlays later. Flat burgundy background, clean anime ink illustration with restrained shading. No red hair or original hoodie. 16:9.",
+    "sha256": "e0b6bedba9bf5bf0acf3589f2a0580d09fce95a6441dabaee1f1b51600dbc68e",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/03675.png",
+    "included": true
+  },
+  {
+    "frame": 2500,
+    "file": "assets/full-2500.png",
+    "prompt": "Production character replacement: first image fixes pose/layout and second image fixes Roxy Migurdia identity/costume. MAGE Roxy at RIGHT same three-quarter body height, left onscreen hand lowered cupped, right onscreen hand lifted open beside cheek, same juggling gesture. Brown mage coat black cuffs white shirt dark tie witch hat twin blue braids. Bare hands. REMOVE all yellow balls, their exact motion will be added later. Keep exact geometry, framing, background and borders. No original clothes, red hair, cheek hearts or white gloves. Remove lyric typography for later restoration. Clean flat anime ink illustration. 16:9.",
+    "sha256": "61bef821233cfa25e9a8051001d08672234a81e7e914e6e53ee75d93e3e16523",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02500.png",
+    "included": true
+  },
+  {
+    "frame": 2508,
+    "file": "assets/full-2508.png",
+    "prompt": "Production character replacement: first image fixes pose/layout and second image fixes Roxy Migurdia identity/costume. MAGE Roxy at RIGHT same three-quarter body height, BOTH hands raised palms open at chest with left onscreen higher, same juggling gesture. Brown mage coat black cuffs white shirt dark tie witch hat twin blue braids. Bare hands. REMOVE all yellow balls for separate motion overlay. Keep exact geometry, framing, background and borders. No original clothes, red hair, cheek hearts or white gloves. Remove lyric typography for later restoration. Clean flat anime ink illustration. 16:9.",
+    "sha256": "177629e63c84bfdfb0f550198e70169e07a7f2b8248043648bdf9aab1fc1b4c9",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02508.png",
+    "included": true
+  },
+  {
+    "frame": 2512,
+    "file": "assets/full-2512.png",
+    "prompt": "Production character replacement: first image fixes pose/layout and second image fixes Roxy Migurdia identity/costume. MAGE Roxy at RIGHT same three-quarter body height, LEFT onscreen hand lifted palm up beside cheek, RIGHT onscreen hand lowered cupped, same juggling gesture. Brown mage coat black cuffs white shirt dark tie witch hat twin blue braids. Bare hands. REMOVE all yellow balls for separate motion overlay. Keep exact geometry, framing, background and borders. No original clothes, red hair, cheek hearts or white gloves. Remove lyric typography for later restoration. Clean flat anime ink illustration. 16:9.",
+    "sha256": "df24565f0b18a1ace554dd1cbd846fb5f667169c5275f40f2fcd25dd0b8368b9",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02512.png",
+    "included": true
+  },
+  {
+    "frame": 1319,
+    "file": "assets/full-1319.png",
+    "prompt": "Production character replacement: first image fixes pose/layout and second image fixes Roxy Migurdia identity/costume. Two polygon portraits: LEFT CASUAL Roxy ivory blouse ochre bow blue twin braids surprised and hand near mouth. RIGHT MAGE Roxy no hat brown coat white shirt dark tie blue twin braids with same awkward smile. Replace ALL red hair even at panel edges. Keep exact tilted panels, facial positions and sizes. Keep exact geometry, framing, background and borders. No original clothes, red hair, cheek hearts or white gloves. Remove lyric typography for later restoration. Clean flat anime ink illustration. 16:9.",
+    "sha256": "493f7a0d35de30b454d08e286e0ad9b1fa33dcd673faf07959372d5d7d1c539e",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01319.png",
+    "included": true
+  },
+  {
+    "frame": 449,
+    "file": "assets/full-449.png",
+    "prompt": "Production character replacement: first image fixes pose/layout and second image fixes Roxy Migurdia identity/costume. MAGE Roxy in same tilted extreme face closeup, mouth open, left arm raised over head touching witch hat, blue twin braids brown coat black cuffs dark tie. Bare hand. Keep exact geometry, framing, background and borders. No original clothes, red hair, cheek hearts or white gloves. Remove lyric typography for later restoration. Clean flat anime ink illustration. 16:9.",
+    "sha256": "4afb42ca496e1945193fd8a401b5f1ed19d03f6bd49e40f9796acb4af4e453a2",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/00449.png",
+    "included": true
+  },
+  {
+    "frame": 456,
+    "file": "assets/full-456.png",
+    "prompt": "Production character replacement: first image fixes pose/layout and second image fixes Roxy Migurdia identity/costume. CASUAL Roxy seen from BACK in same extreme close view stretching arm to left, blue-violet twin braids streaming right, ivory blouse and ochre neck bow. No hat or cloak. Keep exact geometry, framing, background and borders. No original clothes, red hair, cheek hearts or white gloves. Remove lyric typography for later restoration. Clean flat anime ink illustration. 16:9.",
+    "sha256": "183281cd25f2667323bb9e49daf4ffe5b3ad3011aa29485f21704fff2e04b552",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/00456.png",
+    "included": true
+  },
+  {
+    "frame": 2090,
+    "file": "assets/full-2090.png",
+    "prompt": "Edit first PV frame: CASUAL Roxy face closeup at right, eyes closed happy gentle open-mouth smile, blue-violet twin braids ivory blouse ochre bow. Keep white duck on top of head, remove cartoon duck print from original clothes. Second reference fixes Roxy's design. Preserve exact scale, position, pose, frame border, background and nonhuman props. Remove lyrics and butterflies for restoration from original separately. No red hair, gray hoodie or yellow clothes. Clean flat anime ink drawing. 16:9.",
+    "sha256": "513fb64e93aced3a5bfdaef65cd6cb9ee649d39aeaef203dd07058ba3cbd4716",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02090.png",
+    "included": true
+  },
+  {
+    "frame": 3321,
+    "file": "assets/full-3321.png",
+    "prompt": "Edit first PV frame: CASUAL Roxy close view turning head down-left, CLOSED eyes, blue-violet twin braids ivory blouse ochre bow. Keep white duck on top of head. Second reference fixes Roxy's design. Preserve exact scale, position, pose, frame border, background and nonhuman props. Remove lyrics and butterflies for restoration from original separately. No red hair, gray hoodie or yellow clothes. Clean flat anime ink drawing. 16:9.",
+    "sha256": "67794b1f9d6b41830708d0d0faaa37e16db46eae234df61d747bdda9a61856a2",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/03321.png",
+    "included": true
+  },
+  {
+    "frame": 3338,
+    "file": "assets/full-3338.png",
+    "prompt": "Edit first PV frame: CASUAL Roxy close view turning head toward left, OPEN blue eyes attentive neutral expression, blue-violet twin braids ivory blouse ochre bow. Keep white duck on top of head. Second reference fixes Roxy's design. Preserve exact scale, position, pose, frame border, background and nonhuman props. Remove lyrics and butterflies for restoration from original separately. No red hair, gray hoodie or yellow clothes. Clean flat anime ink drawing. 16:9.",
+    "sha256": "3b8c38132173089370627a63b0c0efd4cf7396b424ff73c61e43783b97f18903",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/03338.png",
+    "included": true
+  },
+  {
+    "frame": 3588,
+    "file": "assets/full-3588.png",
+    "prompt": "Edit first PV frame: Replace hair/hand/clothing visible inside small rectangular panel with a closeup of CASUAL Roxy's blue-violet thick BRAID being gently held/adjusted by two bare hands with ivory blouse cuffs. Same composition crop, no face needed, keep panel size. Second reference fixes Roxy's design. Preserve exact scale, position, pose, frame border, background and nonhuman props. Remove lyrics and butterflies for restoration from original separately. No red hair, gray hoodie or yellow clothes. Clean flat anime ink drawing. 16:9.",
+    "sha256": "fa64556a2f292a116f21f781f7920018b16d3a6eb84d63a5021e6008fe9b89df",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/03588.png",
+    "included": true
+  },
+  {
+    "frame": 3550,
+    "file": "assets/full-3550.png",
+    "prompt": "Edit first PV frame: Replace shoes and legs within central panel with CASUAL Roxy's bare lower calves and short BLACK ANKLE BOOTS matching second approved outfit. Same walking step and shoe positions, no trousers/tights. Keep panel geometry. Second reference fixes Roxy's design. Preserve exact scale, position, pose, frame border, background and nonhuman props. Remove lyrics and butterflies for restoration from original separately. No red hair, gray hoodie or yellow clothes. Clean flat anime ink drawing. 16:9.",
+    "sha256": "5d373c38d90def50ddc22f8952cd1a95d30a75f06ac96ec363fe26b408a579ce",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/03550.png",
+    "included": true
+  },
+  {
+    "frame": 444,
+    "file": "assets/full-444.png",
+    "prompt": "Edit first PV frame: Replace visible lower body by CASUAL Roxy's navy KNEE-LENGTH skirt, bare calves and BLACK ANKLE BOOTS, same bent knees mid-motion from behind, ivory blouse at top. Keep skirt covering thighs. Same composition and crop. Second reference fixes Roxy's design. Preserve exact scale, position, pose, frame border, background and nonhuman props. Remove lyrics and butterflies for restoration from original separately. No red hair, gray hoodie or yellow clothes. Clean flat anime ink drawing. 16:9.",
+    "sha256": "7f6a99cb76ef1aa24f5043b139566efd8270d79820c49bd9c712f576b58b1e5f",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/00444.png",
+    "included": true
+  },
+  {
+    "frame": 86,
+    "file": "assets/full-86.png",
+    "prompt": "Edit first PV source frame with second approved Roxy design. Replace girl in small central rectangle with CASUAL Roxy, ivory blouse ochre bow blue-violet twin braids, same tilted head surprised blue eyes and small open mouth. Keep whole face fitting exact same rectangle. Keep original composition, cream frame/background, body pose and proportions. No red hair or old costume. Remove lyric typography for separate restoration. 16:9 anime ink illustration.",
+    "sha256": "0fc6ffe6ed3638cedef35a09666450c55f7e25a32afc48079e18cceff46b7572",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/00086.png",
+    "included": true
+  },
+  {
+    "frame": 325,
+    "file": "assets/full-325.png",
+    "prompt": "Edit first PV source frame with second approved Roxy design. Replace girl's face in top-left rectangle with MAGE Roxy WITHOUT hat, blue-violet twin braids blue eyes CLOSED happy smile, same face position and size, white shirt dark tie brown coat visible at bottom. No heart mark. Keep original composition, cream frame/background, body pose and proportions. No red hair or old costume. Remove lyric typography for separate restoration. 16:9 anime ink illustration.",
+    "sha256": "8fd29c0ac74a4755891ce8ca2d01b2137b6701eb5a3a2a2aeae2c97597e4dd7d",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/00325.png",
+    "included": true
+  },
+  {
+    "frame": 1209,
+    "file": "assets/full-1209.png",
+    "prompt": "Edit first PV source frame with second approved Roxy design. Replace girl inside polygon speech panel with MAGE Roxy, blue-violet twin braids, brown mage coat black cuff, white shirt dark tie; eyes closed thoughtful and one BARE fist touching mouth as source. No hat needed. Keep original composition, cream frame/background, body pose and proportions. No red hair or old costume. Remove lyric typography for separate restoration. 16:9 anime ink illustration.",
+    "sha256": "0d0ddb3d7bc99882494b94724f872ea75be3dc568b4f1ebdde81016dc35418f7",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/01209.png",
+    "included": true
+  },
+  {
+    "frame": 2145,
+    "file": "assets/full-2145.png",
+    "prompt": "Edit first PV source frame with second approved Roxy design. Replace extreme side profile at RIGHT edge with MAGE Roxy facing LEFT, blue-violet twin braids brown mage coat white shirt dark tie pointed hat, same scale crop and open mouth. Left paper text rectangle unchanged. Keep original composition, cream frame/background, body pose and proportions. No red hair or old costume. Remove lyric typography for separate restoration. 16:9 anime ink illustration.",
+    "sha256": "f31bec8ebeac3f95b9e511cb14dc32eac8a53a0f9c72428e8efd6210c00438a9",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02145.png",
+    "included": true
+  },
+  {
+    "frame": 2976,
+    "file": "assets/full-2976.png",
+    "prompt": "Edit first PV source frame with second approved Roxy design. Replace face within horizontal band on LEFT by CASUAL Roxy, blue-violet twin braids ivory blouse ochre bow, CLOSED eyes calm expression same head tilt, size and crop. All right half of band stays cream blank. Keep original composition, cream frame/background, body pose and proportions. No red hair or old costume. Remove lyric typography for separate restoration. 16:9 anime ink illustration.",
+    "sha256": "9309bc733223d8250d7cded4ace52738e101dbdc491ff1a6d90085bc2c9ebbde",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02976.png",
+    "included": true
+  },
+  {
+    "frame": 459,
+    "file": "assets/full-459.png",
+    "prompt": "Edit first PV source frame with second approved Roxy design. Replace LEFT magician torso and extended arm by MAGE Roxy brown long coat black cuff white shirt dark tie with belt straps, head out of frame. RIGHT reaching arm has CASUAL Roxy ivory blouse cuff. Two BARE hands clasp in exactly same location. Replace original striped stockings by ivory boots where visible, no white glove. Keep original composition, cream frame/background, body pose and proportions. No red hair or old costume. Remove lyric typography for separate restoration. 16:9 anime ink illustration.",
+    "sha256": "8591774c106b2623b8e560d03c6ea241860e3ee299874a1799329512fb067d52",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/00459.png",
+    "included": false
+  },
+  {
+    "frame": 459,
+    "file": "assets/full-459-v2.png",
+    "prompt": "Edit ONLY the BACKGROUND of this animation frame. Replace the light cream empty background behind characters with perfectly flat burgundy RGB(140,55,53). Preserve every character pixel, pose, costume, hands, braids and ivory boots exactly as-is. The ivory shirt, ivory boots and ivory right sleeve MUST REMAIN ivory; they are character clothing, not background. No new border, no text. Same 16:9 composition.",
+    "sha256": "f444d233bc597cf79908745fac7e67f053334930c74fdef476f6a8e714b88b06",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/00459.png",
+    "included": true
+  },
+  {
+    "frame": 2520,
+    "file": "assets/full-2520.png",
+    "prompt": "Production PV frame character replacement. First frame fixes pose and composition, second image is the approved Roxy Migurdia design. Replace right-side magician with MAGE Roxy: blue-violet twin braids, wide pointed witch hat, brown long mage coat black cuffs white shirt black tie ivory boots. BOTH bare hands held low at waist, palms cupped exactly as first image. Eyes CLOSED with calm small smile. No white gloves, no cheek heart, no red hair. REMOVE all yellow balls and all typography (will be restored as independent original layers). Preserve flat burgundy background and cream frame. 16:9.",
+    "sha256": "56c8be576bc61f02b52490d0bd982db0d669d48f187f2fdb23fe7557050d6efa",
+    "size": [
+      1672,
+      941
+    ],
+    "design_reference": "assets/roxy-dual-design-v1.png",
+    "source_reference": "frames/source/02520.png",
+    "included": true
+  }
+]

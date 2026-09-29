@@ -1,0 +1,938 @@
+[
+  {
+    "start": 0,
+    "end": 86,
+    "mode": "hands"
+  },
+  {
+    "start": 86,
+    "end": 163,
+    "mode": "portrait",
+    "look": "casual",
+    "search": [
+      500,
+      230,
+      1420,
+      810
+    ]
+  },
+  {
+    "start": 163,
+    "end": 240,
+    "mode": "hands"
+  },
+  {
+    "start": 240,
+    "end": 325,
+    "mode": "scene",
+    "ref": 264,
+    "asset": "full-264",
+    "roi": [
+      240,
+      70,
+      1620,
+      1080
+    ],
+    "letters": [
+      [
+        1660,
+        0,
+        1920,
+        570
+      ]
+    ]
+  },
+  {
+    "start": 325,
+    "end": 362,
+    "mode": "opening_panels"
+  },
+  {
+    "start": 362,
+    "end": 393,
+    "mode": "pass"
+  },
+  {
+    "start": 393,
+    "end": 444,
+    "mode": "hands"
+  },
+  {
+    "start": 444,
+    "end": 449,
+    "mode": "scene",
+    "ref": 444,
+    "asset": "full-444",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "letters": [
+      [
+        0,
+        0,
+        220,
+        1080
+      ],
+      [
+        1720,
+        0,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "start": 449,
+    "end": 454,
+    "mode": "scene",
+    "ref": 449,
+    "asset": "full-449",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ]
+  },
+  {
+    "start": 454,
+    "end": 459,
+    "mode": "scene",
+    "ref": 456,
+    "asset": "full-456",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ]
+  },
+  {
+    "start": 459,
+    "end": 464,
+    "mode": "clasp"
+  },
+  {
+    "start": 464,
+    "end": 472,
+    "mode": "scene",
+    "ref": 464,
+    "asset": "full-464",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ]
+  },
+  {
+    "start": 472,
+    "end": 534,
+    "mode": "pass"
+  },
+  {
+    "start": 534,
+    "end": 546,
+    "mode": "scene",
+    "ref": 540,
+    "asset": "full-540",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "letters": [
+      [
+        0,
+        0,
+        220,
+        1080
+      ],
+      [
+        1720,
+        0,
+        1920,
+        1080
+      ]
+    ]
+  },
+  {
+    "start": 546,
+    "end": 621,
+    "mode": "hands"
+  },
+  {
+    "start": 621,
+    "end": 624,
+    "mode": "early_mage"
+  },
+  {
+    "start": 624,
+    "end": 792,
+    "mode": "approved"
+  },
+  {
+    "start": 792,
+    "end": 849,
+    "mode": "back"
+  },
+  {
+    "start": 849,
+    "end": 862,
+    "mode": "pass"
+  },
+  {
+    "start": 862,
+    "end": 901,
+    "mode": "scene",
+    "ref": 888,
+    "asset": "full-888",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "letters": [
+      [
+        0,
+        0,
+        1700,
+        190
+      ]
+    ],
+    "track": [
+      550,
+      180,
+      1500,
+      840
+    ],
+    "particles": "white"
+  },
+  {
+    "start": 901,
+    "end": 912,
+    "mode": "rabbit_mage"
+  },
+  {
+    "start": 912,
+    "end": 1104,
+    "mode": "approved"
+  },
+  {
+    "start": 1104,
+    "end": 1130,
+    "mode": "casual_smile"
+  },
+  {
+    "start": 1130,
+    "end": 1154,
+    "mode": "scene",
+    "ref": 1140,
+    "asset": "full-1140",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "border": true
+  },
+  {
+    "start": 1154,
+    "end": 1174,
+    "mode": "scene",
+    "ref": 1158,
+    "asset": "full-1158",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "border": true
+  },
+  {
+    "start": 1174,
+    "end": 1208,
+    "mode": "scene",
+    "ref": 1188,
+    "asset": "full-1188",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "border": true
+  },
+  {
+    "start": 1208,
+    "end": 1224,
+    "mode": "thought"
+  },
+  {
+    "start": 1224,
+    "end": 1244,
+    "mode": "scene",
+    "ref": 1224,
+    "asset": "full-1224",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "border": true
+  },
+  {
+    "start": 1244,
+    "end": 1281,
+    "mode": "scene",
+    "ref": 1260,
+    "asset": "full-1260",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "border": true,
+    "keep": [
+      [
+        0,
+        520,
+        510,
+        1080
+      ],
+      [
+        1410,
+        40,
+        1890,
+        540
+      ]
+    ]
+  },
+  {
+    "start": 1281,
+    "end": 1308,
+    "mode": "pass"
+  },
+  {
+    "start": 1308,
+    "end": 1328,
+    "mode": "polygons"
+  },
+  {
+    "start": 1328,
+    "end": 1401,
+    "mode": "pass"
+  },
+  {
+    "start": 1401,
+    "end": 1467,
+    "mode": "scene",
+    "ref": 1440,
+    "asset": "full-1440",
+    "roi": [
+      1080,
+      100,
+      1920,
+      1080
+    ],
+    "letters": [
+      [
+        0,
+        430,
+        1220,
+        670
+      ]
+    ],
+    "track": [
+      1350,
+      220,
+      1880,
+      800
+    ],
+    "cup": true
+  },
+  {
+    "start": 1467,
+    "end": 1543,
+    "mode": "scene",
+    "ref": 1512,
+    "asset": "full-1512",
+    "roi": [
+      0,
+      0,
+      1310,
+      1080
+    ],
+    "letters": [
+      [
+        1020,
+        430,
+        1920,
+        650
+      ]
+    ],
+    "track": [
+      130,
+      330,
+      750,
+      880
+    ],
+    "cup": true
+  },
+  {
+    "start": 1543,
+    "end": 1585,
+    "mode": "scene",
+    "ref": 1548,
+    "asset": "full-1548",
+    "roi": [
+      400,
+      0,
+      1920,
+      1080
+    ],
+    "letters": [
+      [
+        190,
+        0,
+        350,
+        800
+      ]
+    ],
+    "cup": true
+  },
+  {
+    "start": 1585,
+    "end": 1631,
+    "mode": "scene",
+    "ref": 1608,
+    "asset": "full-1608",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "letters": [
+      [
+        1550,
+        0,
+        1780,
+        780
+      ]
+    ],
+    "cup": true
+  },
+  {
+    "start": 1631,
+    "end": 1680,
+    "mode": "standing"
+  },
+  {
+    "start": 1680,
+    "end": 1776,
+    "mode": "approved"
+  },
+  {
+    "start": 1776,
+    "end": 1850,
+    "mode": "pass"
+  },
+  {
+    "start": 1850,
+    "end": 1930,
+    "mode": "hands"
+  },
+  {
+    "start": 1930,
+    "end": 2007,
+    "mode": "scene",
+    "ref": 1944,
+    "asset": "full-1944",
+    "roi": [
+      850,
+      90,
+      1360,
+      1080
+    ],
+    "letters": [
+      [
+        0,
+        250,
+        850,
+        480
+      ],
+      [
+        1380,
+        250,
+        1920,
+        480
+      ]
+    ]
+  },
+  {
+    "start": 2007,
+    "end": 2042,
+    "mode": "portrait",
+    "look": "mage_happy",
+    "search": [
+      480,
+      210,
+      1420,
+      820
+    ]
+  },
+  {
+    "start": 2042,
+    "end": 2081,
+    "mode": "pass"
+  },
+  {
+    "start": 2081,
+    "end": 2127,
+    "mode": "scene",
+    "ref": 2090,
+    "asset": "full-2090",
+    "roi": [
+      790,
+      0,
+      1920,
+      1080
+    ],
+    "letters": [
+      [
+        0,
+        440,
+        850,
+        650
+      ]
+    ],
+    "duck": true
+  },
+  {
+    "start": 2127,
+    "end": 2139,
+    "mode": "pass"
+  },
+  {
+    "start": 2139,
+    "end": 2169,
+    "mode": "sideface"
+  },
+  {
+    "start": 2169,
+    "end": 2197,
+    "mode": "pass"
+  },
+  {
+    "start": 2197,
+    "end": 2224,
+    "mode": "scene",
+    "ref": 2200,
+    "asset": "full-2200",
+    "roi": [
+      360,
+      0,
+      1920,
+      1080
+    ],
+    "particles": "gold",
+    "letters": [
+      [
+        0,
+        0,
+        190,
+        1080
+      ]
+    ]
+  },
+  {
+    "start": 2224,
+    "end": 2235,
+    "mode": "scene",
+    "ref": 2225,
+    "asset": "full-2225",
+    "roi": [
+      400,
+      0,
+      1920,
+      1080
+    ],
+    "particles": "gold",
+    "letters": [
+      [
+        0,
+        0,
+        190,
+        1080
+      ]
+    ],
+    "flowers": true
+  },
+  {
+    "start": 2235,
+    "end": 2314,
+    "mode": "pass"
+  },
+  {
+    "start": 2314,
+    "end": 2367,
+    "mode": "scene",
+    "ref": 2328,
+    "asset": "full-2328",
+    "roi": [
+      0,
+      0,
+      1320,
+      1080
+    ],
+    "letters": [
+      [
+        1600,
+        0,
+        1920,
+        1080
+      ]
+    ],
+    "flowers": true
+  },
+  {
+    "start": 2367,
+    "end": 2401,
+    "mode": "scene",
+    "ref": 2388,
+    "asset": "full-2388",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "letters": [
+      [
+        0,
+        350,
+        500,
+        800
+      ],
+      [
+        1360,
+        350,
+        1920,
+        800
+      ]
+    ],
+    "flowers": true
+  },
+  {
+    "start": 2401,
+    "end": 2437,
+    "mode": "scene",
+    "ref": 2410,
+    "asset": "full-2410",
+    "roi": [
+      210,
+      0,
+      1630,
+      1080
+    ],
+    "letters": [
+      [
+        1700,
+        0,
+        1920,
+        1080
+      ]
+    ],
+    "flowers": true,
+    "smoke": true
+  },
+  {
+    "start": 2437,
+    "end": 2455,
+    "mode": "scene",
+    "ref": 2448,
+    "asset": "full-2448",
+    "roi": [
+      220,
+      0,
+      1620,
+      1080
+    ],
+    "letters": [
+      [
+        0,
+        0,
+        180,
+        1080
+      ],
+      [
+        1700,
+        0,
+        1920,
+        1080
+      ]
+    ],
+    "smoke": true,
+    "card": true
+  },
+  {
+    "start": 2455,
+    "end": 2472,
+    "mode": "hands"
+  },
+  {
+    "start": 2472,
+    "end": 2785,
+    "mode": "juggle"
+  },
+  {
+    "start": 2785,
+    "end": 2832,
+    "mode": "sofa_pair"
+  },
+  {
+    "start": 2832,
+    "end": 2952,
+    "mode": "approved"
+  },
+  {
+    "start": 2952,
+    "end": 2970,
+    "mode": "closing_mage"
+  },
+  {
+    "start": 2970,
+    "end": 3003,
+    "mode": "portrait",
+    "look": "casual_happy",
+    "search": [
+      0,
+      170,
+      1919,
+      860
+    ]
+  },
+  {
+    "start": 3003,
+    "end": 3038,
+    "mode": "hands"
+  },
+  {
+    "start": 3038,
+    "end": 3083,
+    "mode": "hands"
+  },
+  {
+    "start": 3083,
+    "end": 3239,
+    "mode": "sofa_single"
+  },
+  {
+    "start": 3239,
+    "end": 3283,
+    "mode": "pass"
+  },
+  {
+    "start": 3283,
+    "end": 3305,
+    "mode": "rabbit_lap"
+  },
+  {
+    "start": 3305,
+    "end": 3321,
+    "mode": "portrait",
+    "look": "casual_sleep",
+    "search": [
+      500,
+      240,
+      1420,
+      790
+    ]
+  },
+  {
+    "start": 3321,
+    "end": 3328,
+    "mode": "scene",
+    "ref": 3321,
+    "asset": "full-3321",
+    "roi": [
+      730,
+      0,
+      1760,
+      1080
+    ],
+    "particles": "gold",
+    "letters": [
+      [
+        0,
+        0,
+        1600,
+        210
+      ]
+    ],
+    "duck": true
+  },
+  {
+    "start": 3328,
+    "end": 3335,
+    "mode": "scene",
+    "ref": 3330,
+    "asset": "full-3330",
+    "roi": [
+      730,
+      0,
+      1760,
+      1080
+    ],
+    "particles": "gold",
+    "letters": [
+      [
+        0,
+        0,
+        1600,
+        210
+      ]
+    ],
+    "duck": true
+  },
+  {
+    "start": 3335,
+    "end": 3356,
+    "mode": "scene",
+    "ref": 3338,
+    "asset": "full-3338",
+    "roi": [
+      730,
+      0,
+      1760,
+      1080
+    ],
+    "particles": "gold",
+    "letters": [
+      [
+        0,
+        0,
+        1600,
+        210
+      ]
+    ],
+    "duck": true
+  },
+  {
+    "start": 3356,
+    "end": 3397,
+    "mode": "sofa_single"
+  },
+  {
+    "start": 3397,
+    "end": 3478,
+    "mode": "moving_portrait"
+  },
+  {
+    "start": 3478,
+    "end": 3509,
+    "mode": "hands"
+  },
+  {
+    "start": 3509,
+    "end": 3543,
+    "mode": "scene",
+    "ref": 3516,
+    "asset": "full-3516",
+    "roi": [
+      440,
+      0,
+      1390,
+      1080
+    ],
+    "particles": "gold",
+    "letters": [
+      [
+        0,
+        0,
+        340,
+        1080
+      ],
+      [
+        1680,
+        0,
+        1920,
+        1080
+      ]
+    ],
+    "duck": true,
+    "card": true
+  },
+  {
+    "start": 3543,
+    "end": 3584,
+    "mode": "detail_panel",
+    "ref": 3550
+  },
+  {
+    "start": 3584,
+    "end": 3630,
+    "mode": "detail_panel",
+    "ref": 3588
+  },
+  {
+    "start": 3630,
+    "end": 3666,
+    "mode": "scene",
+    "ref": 3640,
+    "asset": "full-3640",
+    "roi": [
+      680,
+      10,
+      1280,
+      1080
+    ],
+    "particles": "gold",
+    "letters": [
+      [
+        0,
+        410,
+        1920,
+        650
+      ]
+    ]
+  },
+  {
+    "start": 3666,
+    "end": 3698,
+    "mode": "scene",
+    "ref": 3675,
+    "asset": "full-3675",
+    "roi": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "particles": "gold",
+    "letters": [
+      [
+        1670,
+        0,
+        1920,
+        1080
+      ]
+    ],
+    "animals": true
+  },
+  {
+    "start": 3698,
+    "end": 3768,
+    "mode": "ending_tag"
+  }
+]

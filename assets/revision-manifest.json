@@ -1,0 +1,135 @@
+[
+  {
+    "file": "assets/back-calm-v2.png",
+    "prompt": "Make an animation in-between of this exact frame. Preserve the SAME canvas, composition, girl location, head size, body and outfit, burgundy background, linework and palette. Roxy seen exactly from behind, cream blouse and navy skirt. Change ONLY the blue hair wind phase: wind has subsided, loose side locks hang closer to the head; two long braids hang almost vertically with black ribbons, instead of floating left. Her face remains completely invisible. Keep her head and torso position unchanged. No hat. Maintain matching delicate 2D anime outlines. Single 16:9 frame, not a panel sheet. Remove all lettering, leaving plain burgundy background.",
+    "reference": "assets/back-0787.png",
+    "sha256": "1c4f7ba473de5f8a3d03ce94a80da9d2351e012c0bc6aafbf6d2102aa31b0597",
+    "size": [
+      1672,
+      940
+    ],
+    "included": true
+  },
+  {
+    "file": "assets/back-gust-v2.png",
+    "prompt": "Make an animation keyframe of this EXACT composition, matching this girl's exact body position, scale, blue hair color, cream blouse, dark blue knee length skirt. Rear view of Roxy, face fully invisible. Stronger wind is blowing right to left: short loose hair locks and BOTH long blue braids arc noticeably LEFT, with delayed swaying black ribbons and ends. Keep the back of head at the identical location and torso rigidly unchanged; no turn towards viewer. Preserve burgundy background. No words, symbols, extra people, grids or panels. Full 16:9 animation frame for compositing; clean thin linework.",
+    "reference": "assets/back-0787.png",
+    "sha256": "68d53164335909c36d9b5f05696abe3a6e046048fc80894755a3b57b93b98ee1",
+    "size": [
+      1672,
+      941
+    ],
+    "included": true
+  },
+  {
+    "file": "assets/cup-calm-v2.png",
+    "prompt": "Create a matching animation in-between of this EXACT Roxy frame. SAME framing, eye and face, body, cream blouse, ochre ribbon, yellow cup, bare skin hands, thin outlines and colors. Change ONLY the blue hair wind phase: the long braid at screen right has dropped lower, a softer curved drooping arc; loose locks settle nearer the back of her head. The braid on screen left also hangs slightly more vertically. Preserve the original face, shoulders and cup position and size with high precision. Not a new camera shot. Plain burgundy background, no words. One 16:9 frame.",
+    "reference": "assets/full-1548.png",
+    "sha256": "aebd9add3ba433ae126e86989ee482a086ce8e92046fa3c351726115929001a8",
+    "size": [
+      1672,
+      941
+    ],
+    "included": true
+  },
+  {
+    "file": "assets/full-464-bare-v2.png",
+    "prompt": "Precisely correct ONLY the hands in this exact frame. The mage Roxy on the LEFT must wear NO GLOVES: remove the white glove on her raised hand near the hat (cropped by top edge) and the white glove at center where she clasps the casual girl's hand. Both hands should have the SAME warm pale peach natural skin color as her face, exposed fingers and fingernails, clear human anatomy. Keep the existing black sleeve cuffs. Keep the clasp as two distinct bare hands naturally holding each other. ALL other pixels should remain as close as possible: same two Roxy figures, faces, costumes, hair, braids, pose, composition, burgundy backdrop. NO text and NO extra hands.",
+    "reference": "assets/full-464.png",
+    "sha256": "0073da3a06b4fa32174661e94b2a2e9f75f45588f93c0f1306a993bc677cb1bb",
+    "size": [
+      1672,
+      941
+    ],
+    "included": true
+  },
+  {
+    "file": "assets/mage-fists-up-v2.png",
+    "prompt": "Edit the FIRST attached Roxy production image, preserving its exact composition and costume, flat burgundy background and clean 2D anime lines. The SECOND source PV frame is ONLY the reference for gesture/expression, not identity or clothing. Change Roxy's expression and gesture to match reference 2: half-open mildly amused eyes, BOTH bare fists lifted next to her shoulders with bent elbows. Keep same brown mage coat and black cuffs, NO gloves. Mouth a small confident closed smile. Existing frame is closed eyes with lower fists: we need the preceding upward fist pose. Remove any lyrics, lettering, sparkles and frames: output a single 16:9 matching replacement frame on plain burgundy for layering. No extra people. No red hair. Do not change the camera or zoom.",
+    "reference": "assets/full-540.png",
+    "source_reference": "frames/source/00534.png",
+    "sha256": "44b42fbafa4322a86bbbe03fb535b316799c045b4b67696ae1c49ca32972458d",
+    "size": [
+      1672,
+      941
+    ],
+    "included": true
+  },
+  {
+    "file": "assets/mage-hand-chest-v2.png",
+    "prompt": "Edit the FIRST attached Roxy production image, preserving its exact composition and costume, flat burgundy background and clean 2D anime lines. The SECOND source PV frame is ONLY the reference for gesture/expression, not identity or clothing. Change gesture to match reference 2 exactly: her screen-left bare hand rests over her own upper chest below collar, the other arm stays akimbo at waist. Head bowed mildly, BOTH eyes gently CLOSED, self-assured small smile. Mage coat, black cuffs, NO gloves. Preserve hat, facial identity and blue twin braids. This is the following pose, not arm hanging down. Remove any lyrics, lettering, sparkles and frames: output a single 16:9 matching replacement frame on plain burgundy for layering. No extra people. No red hair. Do not change the camera or zoom.",
+    "reference": "assets/full-1224.png",
+    "source_reference": "frames/source/01233.png",
+    "sha256": "a690fd27c7f8643a574e1b69e290bc309304360ecffcd430abef36449f197935",
+    "size": [
+      1672,
+      941
+    ],
+    "included": true
+  },
+  {
+    "file": "assets/mage-profile-closed-v2.png",
+    "prompt": "Edit the FIRST attached Roxy production image, preserving its exact composition and costume, flat burgundy background and clean 2D anime lines. The SECOND source PV frame is ONLY the reference for gesture/expression, not identity or clothing. Change ONLY facial expression: keep exact side profile facing LEFT from the right edge of frame, gently CLOSE visible eye with a smiling eyelid and lightly smiling closed lips as reference2. Keep face location, head silhouette, hat and hair unchanged. This is one eye blink animation difference, not a new shot. Remove any lyrics, lettering, sparkles and frames: output a single 16:9 matching replacement frame on plain burgundy for layering. No extra people. No red hair. Do not change the camera or zoom.",
+    "reference": "assets/full-2145.png",
+    "source_reference": "frames/source/02166.png",
+    "sha256": "472551200568a64df837295d4bf591fafc811517ebbf1c3f9c4781f79f75ea03",
+    "size": [
+      1672,
+      941
+    ],
+    "included": true
+  },
+  {
+    "file": "assets/mage-fingers-closed-v2.png",
+    "prompt": "Edit the FIRST attached Roxy production image, preserving its exact composition and costume, flat burgundy background and clean 2D anime lines. The SECOND source PV frame is ONLY the reference for gesture/expression, not identity or clothing. Change gesture to match reference2: the outstretched screen-left hand is now raised beside the shoulder, fingers gathered together delicately as if ready to produce a flower. Bare skin fingers with black cuff, NO glove and NO flower yet. Her head tilts slightly down with small rounded pursed lips. Keep brown coat and hat, blue braids, same screen-right body composition. Remove any lyrics, lettering, sparkles and frames: output a single 16:9 matching replacement frame on plain burgundy for layering. No extra people. No red hair. Do not change the camera or zoom.",
+    "reference": "assets/full-2200.png",
+    "source_reference": "frames/source/02221.png",
+    "sha256": "34163a2ec565fd2d1450d784622a5826a8ed3ec479b0f6071a2dbd39472f3ef2",
+    "size": [
+      1672,
+      941
+    ],
+    "included": true
+  },
+  {
+    "file": "assets/casual-card-closed-v2.png",
+    "prompt": "Edit the FIRST attached Roxy production image, preserving its exact composition and costume, flat burgundy background and clean 2D anime lines. The SECOND source PV frame is ONLY the reference for gesture/expression, not identity or clothing. Change ONLY facial expression to the initial blink after magical smoke: BOTH eyes closed, small closed mouth, surprise not yet opened. Same front facing Roxy, exact head size and position, blue braids cream blouse ochre bow, bare hand holding blue card same position. Keep all other framing and details unchanged. Remove any lyrics, lettering, sparkles and frames: output a single 16:9 matching replacement frame on plain burgundy for layering. No extra people. No red hair. Do not change the camera or zoom.",
+    "reference": "assets/full-2448.png",
+    "source_reference": "frames/source/02437.png",
+    "sha256": "7a17f7002560c485f61a0ec64fa7172554a6987dde646ec4d7650a5baab5109f",
+    "size": [
+      1672,
+      941
+    ],
+    "included": true
+  },
+  {
+    "file": "assets/mage-cup-alt-v2.png",
+    "prompt": "Make the next hand-drawn animation cel of this EXACT Roxy production frame. Keep identical camera, framing, outfit and nearly identical head size. Her raised screen-left arm relaxes down a few pixels; she tilts her head a little farther toward her left shoulder, with the hat and blue braids following the head. Her long braids sway gently with their tips shifted right by about 15 pixels. Keep both blue eyes open and the joyful open mouth. The bare hand and yellow string cup on screen right stay anchored in their original place. This is a small lively hand-drawn pose alternation, NOT a different illustration or large movement. Warm pale bare hands with NO gloves; brown mage coat and black cuffs; same plain burgundy backdrop; no typography.",
+    "reference": "assets/full-1608.png",
+    "source_reference": "frames/source/01591.png",
+    "status": "discarded: arm motion changed the cup-string contact; not a build dependency",
+    "included": false
+  },
+  {
+    "file": "assets/mage-cup-subtle-v2.png",
+    "prompt": "Edit ONLY the hair and face in this exact image, making a subtle second animation cel. The entire hat, both arms, hands, cup, torso, background and framing MUST be identical. Do NOT lower or bend the outstretched screen-left arm. Do NOT tilt or move the head or hat. Change only blue hair tips/long braids: sway braid ends right by a small amount, around 10 pixels; subtly redraw the bangs. Her mouth becomes a slightly narrower open happy smile and her eyes keep looking forward. Maintain exact facial placement. No new expression like blinking. No gloves. Keep original skin, lines, colors and single burgundy 16:9 frame. No words.",
+    "reference": "assets/full-1608.png",
+    "source_reference": "frames/source/01591.png",
+    "sha256": "2e5fcbf46eab1e734615b66d78039bdec72817170892f593182ca4460b256b01",
+    "size": [
+      1672,
+      941
+    ],
+    "included": true
+  },
+  {
+    "file": "assets/mage-hand-chest-v2-framed.png",
+    "derived_from": [
+      "assets/mage-hand-chest-v2.png",
+      "assets/full-1224.png"
+    ],
+    "recipe": "revision_composite.setup; restore original generated border",
+    "included": true
+  }
+]

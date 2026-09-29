@@ -1,0 +1,209 @@
+[
+  {
+    "id": "dual-design-board",
+    "file": "assets/roxy-dual-design-v1.png",
+    "prompt": "Production design board of two full-body Roxy Migurdia versions on ivory background, using official identity and Trick Heart flat drawing style: LEFT canonical tan mage coat, black cuffs/hat and pale tall boots; RIGHT cream blouse with ochre ribbon, navy knee-length skirt, dark ankle boots, no mage coat/hat. Both share blue-violet twin braids and blue eyes. Three face portraits below each figure: open eyes, closed-eye smile, profile. No staff/animals/effects/text. Landscape 3:2. This entry is a normalized record of the initial production prompt.",
+    "sha256": "57c8f0a3ce0ad9888c93104e8abaa4a4f72a8fbb786ba3c9fd9154adb111841f",
+    "included": true
+  },
+  {
+    "id": "mage624",
+    "file": "assets/mage-0624.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-6387c8bb-03c8-41bc-bca9-0dea5910ad3e.png",
+    "prompt": "Use case: precise-object-edit. Edit IMAGE 1, a 1920x1080 PV frame. IMAGE 2 is the approved character/costume reference. Replace ONLY the red-haired magician in image 1 with MAGE ROXY from the LEFT half of image 2. Keep the original EXACT 16:9 canvas and composition. Keep the wine-red background, left Japanese lyric paper, tiny golden coin and thin gold magic wand in precisely their original places. Preserve the original head center (about x=1630 y=320), both hand positions, elbow positions, same upper-body framing, same action with one palm up on the left and the other hand pointing the wand toward it. Repaint the entire person: blue-violet bangs and long twin BRAIDS (no red hair, no drills), blue eyes, Roxy's black wide-brim mage hat partially outside top/right like the source framing, tan mage coat with black cuffs, white shirt and dark necktie, bare pale hands instead of white gloves. Small rounded mouth, looking at the coin. Do not preserve the source pink jacket, yellow cuffs, heart cheek mark or bow tie. Match the SOURCE PV's simple flat areas and slightly irregular black outlines, simplify the reference costume to that graphic level, no gradients or rendered shading. Essential invariants: identical framing, pose, hand/coin contact, unchanged background and Japanese lettering. Do not add any text, animals, effects, butterflies or objects. Return one complete EDITED FRAME at 1920x1080, not a sheet, no borders.",
+    "sha256": "e72e1a12166895b392879248332291f5cd9b235a05467f9c9d8e6c351f80cd35",
+    "included": true
+  },
+  {
+    "id": "mage632",
+    "file": "assets/mage-0632.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-01d82c49-64c8-4ef3-8b25-08aa592a083a.png",
+    "prompt": "Edit the FIRST supplied image, preserving its 16:9 canvas and exact composition/pose. SECOND image is the shared dual-costume Roxy reference, THIRD is the approved mage rendering for identity and linework. Replace the ENTIRE red-haired magician only with Roxy Migurdia in her tan long mage coat, black cuffs, white shirt, narrow dark tie, blue-violet twin braids, blue eyes and black wide-brimmed pointed mage hat. Bare pale hands, no white gloves. Use the flat graphic style of the source PV, not detailed shading. Keep head, hands and torso at their original positions. Remove the source red hair, drill pigtails, pink jacket, yellow cuffs, cheek heart and bow tie. Preserve the burgundy background and lyric panels, NO extra text. For production compositing, OMIT all flying butterflies/spark shapes from the frame and from in front of the person: restore their covered parts on the character and plain burgundy where butterflies were. They will be added back from the original video. Keep the thin gold wand but do not invent props. Output ONE full edited frame, same 16:9 composition, do not zoom or recenter. This is the WINK pose: left eye closed, right eye open, left screen-side palm up, right hand raised holding the thin wand beside the face. Faithfully match these hands and this wink. Do not copy the different hand pose from image 3.",
+    "sha256": "ef3eaca97e37ac6374d2756e608b9093e96211954f83d3dc32dfa047c0144695",
+    "included": true
+  },
+  {
+    "id": "mage648",
+    "file": "assets/mage-0648.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-f7f79e2e-c40d-45ec-8443-16f455f67ba4.png",
+    "prompt": "Edit the FIRST supplied image, preserving its 16:9 canvas and exact composition/pose. SECOND image is the shared dual-costume Roxy reference, THIRD is the approved mage rendering for identity and linework. Replace the ENTIRE red-haired magician only with Roxy Migurdia in her tan long mage coat, black cuffs, white shirt, narrow dark tie, blue-violet twin braids, blue eyes and black wide-brimmed pointed mage hat. Bare pale hands, no white gloves. Use the flat graphic style of the source PV, not detailed shading. Keep head, hands and torso at their original positions. Remove the source red hair, drill pigtails, pink jacket, yellow cuffs, cheek heart and bow tie. Preserve the burgundy background and lyric panels, NO extra text. For production compositing, OMIT all flying butterflies/spark shapes from the frame and from in front of the person: restore their covered parts on the character and plain burgundy where butterflies were. They will be added back from the original video. Keep the thin gold wand but do not invent props. Output ONE full edited frame, same 16:9 composition, do not zoom or recenter. This is the OPEN-EYES SMILE pose, palm opened to the lower left, other hand raised beside the right side of the face holding the thin wand, looking toward viewer. Match source head tilt and hand locations, no coin left on the palm. Keep the TWO long braided pigtails.",
+    "sha256": "feac0831c3459e43ac8e12d1a2dfa1b5646b9abaf8e29d30743a939727b28a3c",
+    "included": true
+  },
+  {
+    "id": "face720",
+    "file": "assets/face-0720.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-a534f803-b822-4919-b8f7-55b44ac1a5b1.png",
+    "prompt": "Precise edit of IMAGE 1 (a 16:9 PV frame). IMAGE 2 is the approved dual Roxy design board. Replace ONLY the source red-haired face with the matching Roxy identity; preserve EXACT image 1 face location, scale, crop, thin black wavy strip outline and the 16:9 composition. Mage Roxy's face on the LEFT of the narrow cream strip: same tilt, relaxed blue eyes and small knowing smile, blue-violet bangs with braided hair at sides. The brim may be above the crop; show only the part of face present in the source. No heart cheek mark. Keep the Japanese text on the RIGHT unchanged. Match the source's simple flat hand-drawn PV aesthetic. No added makeup or objects. OMIT ALL yellow flying butterflies from everywhere in the frame, including over the head: restore clean cream strip or burgundy field behind them. Butterflies will be composited later from the original animation. Keep background uniform flat burgundy and flat cream (no texture, no lighting). Return one complete frame, not a sheet; do not enlarge or recenter the cream strip.",
+    "sha256": "cf69129320162e19409dc841686a670e932082081109892da74f6953e8befe1d",
+    "included": true
+  },
+  {
+    "id": "face768",
+    "file": "assets/face-0768.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-adb1d85d-c76b-4512-8952-63068635803b.png",
+    "prompt": "Precise edit of IMAGE 1 (a 16:9 PV frame). IMAGE 2 is the approved dual Roxy design board. Replace ONLY the source red-haired face with the matching Roxy identity; preserve EXACT image 1 face location, scale, crop, thin black wavy strip outline and the 16:9 composition. Casual Roxy's face on the RIGHT of the narrow cream strip: identical open surprised expression and open round mouth, big blue eyes, blue-violet bangs and twin braids, no hat. Keep Japanese text on the LEFT unchanged. Match the source's simple flat hand-drawn PV aesthetic. No added makeup or objects. OMIT ALL yellow flying butterflies from everywhere in the frame, including over the head: restore clean cream strip or burgundy field behind them. Butterflies will be composited later from the original animation. Keep background uniform flat burgundy and flat cream (no texture, no lighting). Return one complete frame, not a sheet; do not enlarge or recenter the cream strip.",
+    "sha256": "946ff735b4059a43b5a685780370480adf8fce21945f7533ba1ef9b94caf1a55",
+    "included": true
+  },
+  {
+    "id": "mage912",
+    "file": "assets/mage-0912.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-14d1a5fb-34e4-4bc8-a658-fd9264e722a8.png",
+    "prompt": "Precise object edit of IMAGE 1, using IMAGE 2 only as the Roxy identity/costume design reference. Keep image 1's 16:9 canvas, all object positions, subject scale, posture and framing. Replace the magician with MAGE Roxy from the LEFT costume: same tilted head and closed-eye joyful smile, left hand touching the hat brim, right hand holding up the rabbit at exactly the original palm location. Tan long mage coat, BLACK cuffs, pale bare hands, narrow dark tie, wide-brim black pointed hat, blue-violet twin braids. Preserve the white/red rabbit precisely in its position and scale. Remove the cheek heart, bow tie, yellow cuffs, red hair and pink jacket. Simple hand-drawn flat-color PV linework with sparse shading, matching original. Keep background uniformly flat wine-red, preserve all original Japanese lettering and floating small pale dots. Do not move any animal, hand, text, frame or prop. No extra symbols, hearts, text or objects. Output one edited 16:9 frame; do not recenter or crop differently. All details of the character must be replaced, including clothes and hair.",
+    "sha256": "2a0a6d5004e2ba3d95c041ce7c6a14188895a86ca36dcbdc38b744e20c55b0a1",
+    "included": true
+  },
+  {
+    "id": "casual930",
+    "file": "assets/casual-0930.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-e4f0b496-d42e-415c-a3bd-a39d8f0fdd23.png",
+    "prompt": "Precise object edit of IMAGE 1, using IMAGE 2 only as the Roxy identity/costume design reference. Keep image 1's 16:9 canvas, all object positions, subject scale, posture and framing. Replace the viewer girl with CASUAL Roxy from the RIGHT costume: NO hat, NO mage coat. Blue-violet twin BRAIDS, cream long-sleeved blouse with small ochre neck ribbon. Same surprised face and round open mouth. Same hands and arms cradling the white/red rabbit in exactly the original position, left bare fingers in front of the rabbit. Preserve the rabbit unchanged. Remove red hair, gray hoodie and yellow T-shirt. Simple hand-drawn flat-color PV linework with sparse shading, matching original. Keep background uniformly flat wine-red, preserve all original Japanese lettering and floating small pale dots. Do not move any animal, hand, text, frame or prop. No extra symbols, hearts, text or objects. Output one edited 16:9 frame; do not recenter or crop differently. All details of the character must be replaced, including clothes and hair.",
+    "sha256": "0360409816ca258c98cc4f8816905044ce4013cc3ffc79a3847fd4de510bb575",
+    "included": true
+  },
+  {
+    "id": "casual939",
+    "file": "assets/casual-0939.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-b629e850-1ef0-45e8-a945-21ebd7024d7f.png",
+    "prompt": "Edit IMAGE 1, keeping its exact 16:9 framing, subject location/size, poses and wine-red background. Replace the red-haired girl entirely with CASUAL ROXY from the RIGHT side of IMAGE 2. Blue-violet twin BRAIDS and bangs, blue eyes, cream long-sleeved blouse with small ochre ribbon, pale bare hands. NO hat, NO mage coat, NO gray hoodie or yellow T-shirt anywhere (including behind rabbit). Match the source CLOSED-EYES LAUGHING pose, rabbit touching her cheek, both hands raised. The white rabbit's silhouette and placement stay exactly unchanged. Simple flat hand-drawn PV linework like the source, cheerful expressive large eyes. No gradients. Keep the left Japanese lyric rectangle unchanged, keep all animals unchanged. Do not add details to background or move the hands. One complete 16:9 edited frame.",
+    "sha256": "cde067709b79fee016a0bf3ce2823c9483e1cb0a8634574c4f2ad0f5bfe77799",
+    "included": true
+  },
+  {
+    "id": "casual948",
+    "file": "assets/casual-0948.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-a79aea34-6887-4768-be9a-d55d102d0c9a.png",
+    "prompt": "Edit IMAGE 1, keeping its exact 16:9 framing, subject location/size, poses and wine-red background. Replace the red-haired girl entirely with CASUAL ROXY from the RIGHT side of IMAGE 2. Blue-violet twin BRAIDS and bangs, blue eyes, cream long-sleeved blouse with small ochre ribbon, pale bare hands. NO hat, NO mage coat, NO gray hoodie or yellow T-shirt anywhere (including behind rabbit). Match the source WINKING surprised pose with her head tilted and hands raised, and the white/red rabbit flopping diagonally onto the top RIGHT of her head. Preserve the rabbit's placement and silhouette. Simple flat hand-drawn PV linework like the source, cheerful expressive large eyes. No gradients. Keep the left Japanese lyric rectangle unchanged, keep all animals unchanged. Do not add details to background or move the hands. One complete 16:9 edited frame.",
+    "sha256": "00941702fcdef8f1ac3d471a5548eb9e759776ae77a1c166c97d0dbf1607e022",
+    "included": true
+  },
+  {
+    "id": "casual960",
+    "file": "assets/casual-0960.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-f3960f69-4e1e-4821-aca9-140d68b0c45a.png",
+    "prompt": "Edit IMAGE 1, keeping its exact 16:9 framing, subject location/size, poses and wine-red background. Replace the red-haired girl entirely with CASUAL ROXY from the RIGHT side of IMAGE 2. Blue-violet twin BRAIDS and bangs, blue eyes, cream long-sleeved blouse with small ochre ribbon, pale bare hands. NO hat, NO mage coat, NO gray hoodie or yellow T-shirt anywhere (including behind rabbit). Match the source gentle OPEN-EYES SMILE pose with both empty hands raised and the white/red rabbit lying horizontally on top of her head. Preserve its exact placement, scale and silhouette. The crown of Roxy's blue hair must touch the rabbit's underside, same head contour height as source. Simple flat hand-drawn PV linework like the source, cheerful expressive large eyes. No gradients. Keep the left Japanese lyric rectangle unchanged, keep all animals unchanged. Do not add details to background or move the hands. One complete 16:9 edited frame.",
+    "sha256": "23158d826dd5aeb2003db5a42803ff68322351a43019596b966725b88fe8abe4",
+    "included": true
+  },
+  {
+    "id": "pair1680",
+    "file": "assets/pair-1680.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-fb13075b-ccb1-4705-9f17-c4a9c0e4dc3b.png",
+    "prompt": "Precisely edit IMAGE 1 using approved Roxy design board IMAGE 2. Keep 16:9 frame, original object placement, original head and body positions, exact background, props and framing. Standing dog-walking scene. LEFT person is MAGE ROXY (tan long coat, wide black witch hat, pale tall boots, black cuffs, white shirt/dark tie). RIGHT person is CASUAL ROXY (cream blouse, small ochre neck ribbon, navy knee-length pleated skirt, dark ankle boots, NO coat or hat). Both blue-violet twin braids, identical Roxy face identity. Maintain source body height, feet ground contacts, precise hand positions holding the two yellow leash handles. Preserve the DOG and both LEASHES/handles exactly, unchanged. Keep the original two separate body poses and directions of gaze. Remove all red hair, pink magician clothing, striped stockings, hoodie and slippers. Flat simple hand-drawn PV aesthetic, expressive clean black outlines with very sparse shading. Uniform background, no lighting gradient. Preserve all original Japanese lyrics without adding new words. Do not retain any red hair or source clothes. Produce one complete edited frame, no design board, no extra borders or panels.",
+    "sha256": "843c97e57f121e588c093df72d4fa3626ba173b794e9c366e12501766ddf53ce",
+    "included": true
+  },
+  {
+    "id": "profiles1752",
+    "file": "assets/profiles-1752.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-c8a5236b-81f7-49a1-b134-5fa4520b3304.png",
+    "prompt": "Precisely edit IMAGE 1 using approved Roxy design board IMAGE 2. Keep 16:9 frame, original object placement, original head and body positions, exact background, props and framing. Two upright CREAM PORTRAIT FRAMES. LEFT portrait: mage Roxy in right-facing profile, tan mage coat, white shirt/dark tie, black hat with ochre band; blue-violet twin braids and blue eye. RIGHT portrait: casual Roxy in left-facing profile, cream blouse with ochre neck ribbon, NO hat, NO mage coat; same blue-violet braids and blue eye. Preserve the exact frame polygons, locations and profile directions, simple slightly rounded small nose, open eye and small open mouth on right. Characters entirely clipped by their frame boundaries. Do not connect the two frames or change their sizes. Flat simple hand-drawn PV aesthetic, expressive clean black outlines with very sparse shading. Uniform background, no lighting gradient. Preserve all original Japanese lyrics without adding new words. Do not retain any red hair or source clothes. Produce one complete edited frame, no design board, no extra borders or panels.",
+    "sha256": "0ff7466475c9679f8299d5b1a9c093368e5470a89afa8f1b8678b4d37593b894",
+    "included": true
+  },
+  {
+    "id": "sofa2880",
+    "file": "assets/sofa-2880.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-64fc27f1-0d6a-4049-8f47-0d22dca83022.png",
+    "prompt": "Precisely edit IMAGE 1 using approved Roxy design board IMAGE 2. Keep 16:9 frame, original object placement, original head and body positions, exact background, props and framing. Quiet SOFA scene. Replace LEFT sitting magician with mage Roxy in tan long coat, white shirt/dark tie, black cuffs and pale tall boots. Her wide-brimmed hat is OMITTED in this close leaning pose so it cannot collide with the other head. Replace RIGHT sitting viewer with casual Roxy in cream blouse, small ochre ribbon, navy knee-length skirt and dark ankle boots. Both identical blue-violet twin braids, CLOSED EYES, heads leaning gently together, same exact seated poses and hand contact on the seat. The white DUCK on the right person's head, white/red RABBIT on lap, DOG on floor, SOFA with pillows and side cabinet must remain in their precise original positions and scale. Repaint only humans, including all sleeves, legs and shoes. Don't turn the scene into a new composition. Make skirt drape naturally and keep knees modestly covered, and mage coat drape around seated legs. Flat simple hand-drawn PV aesthetic, expressive clean black outlines with very sparse shading. Uniform background, no lighting gradient. Preserve all original Japanese lyrics without adding new words. Do not retain any red hair or source clothes. Produce one complete edited frame, no design board, no extra borders or panels.",
+    "sha256": "2f95bd2724b805704781be380bf7eb96e089395dda9a1f8253219bfa9ba2cc00",
+    "included": true
+  },
+  {
+    "id": "back787",
+    "file": "assets/back-0787.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-518009bb-4f05-4450-944a-8c822742f24b.png",
+    "prompt": "Edit the FIRST image precisely, using the SECOND image as Roxy's two costume reference. Preserve the original 16:9 composition, source framing, flat burgundy background and all Japanese text. The casual viewer is seen FROM BEHIND, same head height and centered placement and crop. Draw blue-violet twin braids hanging down her back, cream long-sleeved blouse, navy knee-length pleated skirt. No hat, coat or hoodie. Keep the original swaying hair direction suggested by small braid motion. No visible face. Same simple flat-color PV drawing style. Replace every part of the original character. No lighting gradients or extra objects, no reframing. One full 16:9 edited image.",
+    "sha256": "bd259e176a188006c0365c52ef3bf2c3e3640b059e388508461563cefbdf4dc2",
+    "included": true
+  },
+  {
+    "id": "casual1099",
+    "file": "assets/casual-1099.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-38308d25-82f7-44ae-a15b-9100b17e6f1e.png",
+    "prompt": "Edit the FIRST image precisely, using the SECOND image as Roxy's two costume reference. Preserve the original 16:9 composition, source framing, flat burgundy background and all Japanese text. The casual viewer is a LARGE THREE-QUARTER CLOSE-UP inside the cream-bordered burgundy frame, with tilted head and curious round open mouth, looking at the viewer. Draw Roxy's blue-violet bangs and double braids, blue eyes, cream blouse and small ochre neck ribbon, no hat/coat/hoodie. Same face center, scale, head tilt, shoulders and frame crop. Same simple flat-color PV drawing style. Replace every part of the original character. No lighting gradients or extra objects, no reframing. One full 16:9 edited image.",
+    "sha256": "281bc64d650a8039f1cde64059d8cb99a8edc375ba2bdc6a13e893a8dc8cd2e8",
+    "included": true
+  },
+  {
+    "id": "hand1036",
+    "file": "assets/hand-1036.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-1b9eb0f4-c699-40b2-8843-6a3a138b9aa9.png",
+    "prompt": "Edit the FIRST image precisely, using the SECOND image as Roxy's two costume reference. Preserve the original 16:9 composition, source framing, flat burgundy background and all Japanese text. There is ONLY A HAND AND SLEEVE HOLDING A PLAYING CARD, no face/body. Replace the source white glove with Roxy's pale BARE HAND in exactly the same grip and replace the orange/yellow sleeve with a BLACK MAGE COAT CUFF and tan sleeve. Preserve the Ace of Hearts card at its exact original coordinates, size, angle and designs. Do not add a person, face or extra fingers. Same simple flat-color PV drawing style. Replace every part of the original character. No lighting gradients or extra objects, no reframing. One full 16:9 edited image.",
+    "sha256": "fa1403df50aff4cf618d06837b192de4b9c281e9008a069acb977171bb0838a7",
+    "included": true
+  },
+  {
+    "id": "crown984",
+    "file": "assets/crown-0984.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-655dde63-0cb7-4873-955a-b39d97d67829.png",
+    "prompt": "Precise image edit. Image 1 is the exact target PV frame, Image 2 the Roxy reference. The ONLY human part visible is the red-haired crown at the bottom right, underneath the giant white/red rabbit. Replace that red crown with Roxy's blue-violet hair crown, same contour and scale, with sparse blue-hair strand lines consistent with her hairstyle. Do not add any face, eyes, hands, hat or body. Keep the giant rabbit completely unchanged, including its red patch. Do not turn the rabbit's red patch blue. Match source flat hand-drawn anime PV style, no detailed lighting, no gradients. Preserve exact 16:9 framing and source object positions. No extra text or objects. Return one full edited frame.",
+    "sha256": "33cdf15bd0ac5f7cc97420e2644a85fb671118e74d0531fee60c722a6606144b",
+    "included": true
+  },
+  {
+    "id": "back1092",
+    "file": "assets/back-1092.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-c8b41114-15c6-4f2d-a17d-193a79fc9aea.png",
+    "prompt": "Precise image edit. Image 1 is the exact target PV frame, Image 2 the Roxy reference. Replace the full-body rear three-quarter girl in the cream-bordered rectangle with CASUAL Roxy: blue-violet twin braids, cream long-sleeved blouse, navy knee-length skirt, dark ankle boots. Same rear three-quarter pose, body location, head angle and feet positions; no hat/coat. Source cream border and wine-red interior remain exact. Match source flat hand-drawn anime PV style, no detailed lighting, no gradients. Preserve exact 16:9 framing and source object positions. No extra text or objects. Return one full edited frame.",
+    "sha256": "a4aff1a043daa0e266a3d7e558b01176bf7ee93cc8398b449197044ca1cf27be",
+    "included": true
+  },
+  {
+    "id": "profile1728",
+    "file": "assets/profile-1728.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-ed907490-faa2-4e50-a868-06b9b6237c8f.png",
+    "prompt": "Precise image edit. Image 1 is the exact target PV frame, Image 2 the Roxy reference. Replace ONLY the character in the SINGLE LEFT cream portrait frame with MAGE Roxy in exact right-facing profile, eyes CLOSED: blue-violet twin braids and bangs, black witch hat, tan mage coat, white shirt and dark tie. No heart cheek mark. Keep the existing single frame boundary, location and scale absolutely exact, no second portrait. Burgundy field and bottom lyrics unchanged. Match source flat hand-drawn anime PV style, no detailed lighting, no gradients. Preserve exact 16:9 framing and source object positions. No extra text or objects. Return one full edited frame.",
+    "sha256": "e9e983693bcbaff0211a7f6cd0bf215448cddb1591a490d723e89c775b562ce2",
+    "included": true
+  },
+  {
+    "id": "closing2939",
+    "file": "assets/closing-2939.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-507776e1-c94e-4d28-86ce-c68eb18a52f9.png",
+    "prompt": "Precisely edit the FIRST 16:9 PV frame. Use SECOND image for Roxy identity, LEFT mage costume. Replace only the red-haired magician portrait on the RIGHT side of this wide cream strip with MAGE ROXY: blue-violet bangs and twin braids at both sides, closed eyes, same calm neutral small mouth, same face scale/location/crop. Remove cheek heart and red hair. Hat stays out of view above the crop, as allowed by this framing. Tiny collar at lower right is white shirt and narrow dark tie, no black bow. Flat hand-drawn PV linework. Preserve exact strip boundaries: top near y170, bottom near y870 in original 1920x1080; wide blank cream area on LEFT, dark burgundy top/bottom, and original Japanese bottom caption. Do not move or recenter the face. One full edited frame. No additional text.",
+    "sha256": "66677a2fd52e57786ccec1fb674b39abc00808f08e687c9068844f821a13f7dc",
+    "included": true
+  },
+  {
+    "id": "closing2951",
+    "file": "assets/closing-2951.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-18109938-5dcb-477c-8da9-6918786ccb16.png",
+    "prompt": "Precisely edit the FIRST 16:9 PV frame. Use SECOND image for Roxy identity, LEFT mage costume. Replace only the red-haired magician portrait on the RIGHT side of this wide cream strip with MAGE ROXY: blue-violet bangs and twin braids at both sides, open blue eyes, same calm neutral small mouth, same face scale/location/crop. Remove cheek heart and red hair. Hat stays out of view above the crop, as allowed by this framing. Tiny collar at lower right is white shirt and narrow dark tie, no black bow. Flat hand-drawn PV linework. Preserve exact strip boundaries: top near y170, bottom near y870 in original 1920x1080; wide blank cream area on LEFT, dark burgundy top/bottom, and original Japanese bottom caption. Do not move or recenter the face. One full edited frame. No additional text.",
+    "sha256": "d18a2ca6ead6a77bb6c27f44ff45bb5cb6b52686d6861bf59d54fcc16bcbc025",
+    "included": true
+  },
+  {
+    "id": "casual1095",
+    "file": "assets/casual-1095.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-7a2bc6f5-9053-4d80-b06e-0b5c2cffc7a0.png",
+    "prompt": "Edit IMAGE 1 precisely: replace the red-haired girl only with CASUAL Roxy from the RIGHT half of IMAGE 2, blue-violet twin braids and bangs, blue eyes, cream long-sleeved blouse and small ochre ribbon, NO mage hat, NO coat, NO gray hoodie and NO yellow T-shirt. Keep this MEDIUM THREE-QUARTER turn: torso in side view toward left, head turning toward viewer, mouth closed and neutral, original head center around x970 y365. Maintain full visible round crown and the original torso crop. Do not zoom to a close-up. Keep original 16:9 canvas, burgundy inner backdrop, cream outer border and black wavy frame outline at original coordinates. Flat simple PV anime linework, no gradients, no extra objects or words. One complete edited frame.",
+    "sha256": "85776853ee65e4be018a8a10c978c47b819a3f1830a51835442054f706874343",
+    "included": true
+  },
+  {
+    "id": "casual1103",
+    "file": "assets/casual-1103.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-e2c5cea9-ff60-40b6-81a8-206817a8cfd3.png",
+    "prompt": "Edit IMAGE 1 precisely: replace the red-haired girl only with CASUAL Roxy from the RIGHT half of IMAGE 2, blue-violet twin braids and bangs, blue eyes, cream long-sleeved blouse and small ochre ribbon, NO mage hat, NO coat, NO gray hoodie and NO yellow T-shirt. Keep this EXTREME tilted CLOSE-UP with relaxed happy blue eyes and an OPEN JOYFUL SMILE. Same exact tilt, face position near the RIGHT, and face size, shoulders cropped below. Do not reduce the head size or move to center. Keep original 16:9 canvas, burgundy inner backdrop, cream outer border and black wavy frame outline at original coordinates. Flat simple PV anime linework, no gradients, no extra objects or words. One complete edited frame.",
+    "sha256": "75251e2d57be6bead28e3a2942559fbc31fe92222254f0a66838c4f728c92568",
+    "included": true
+  },
+  {
+    "id": "pair1680v2",
+    "file": "assets/pair-1680-v2.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-d63656b2-475c-4868-a48e-8eb2ba580a36.png",
+    "prompt": "Targeted correction to this existing production frame. Change ONLY these small character details: the LEFT mage Roxy has NO heart-shaped cheek mark or cheek tattoos. Remove the source heart mark completely, leaving plain skin. Both of her hands must be pale BARE SKIN, not white gloves; keep their exact shape, finger pose and outlines. Preserve everything else including both Roxy costumes, hair, expressions, pose, leashes, dog, background and lettering unchanged. No new objects. Keep the same 16:9 canvas and flat PV drawing style, do not recenter, zoom or redesign.",
+    "sha256": "54ef41a0c981f8d7bb78b66a3b7f8440e1420674bd140ec7fc511e0a4be0d5ac",
+    "included": true
+  },
+  {
+    "id": "casual930v2",
+    "file": "assets/casual-0930-v2.png",
+    "generated_from": "C:\\Users\\StuGD\\.codex\\generated_images\\01a0e898-24ad-7df0-ad8d-dab967e15aec\\exec-bef18a89-0944-4ab1-8a86-a0de01e2c6c5.png",
+    "prompt": "Targeted correction to this existing production frame. Correct ONLY the casual Roxy character: turn both solid black irises into modest BLUE irises matching her design, keeping the same large surprised eyes; remove the remaining GRAY and YELLOW source-hoodie fragments immediately behind the rabbit on the girl's left shoulder and replace them with her cream blouse, continuing the blouse behind the rabbit. Preserve all other pixels conceptually, especially rabbit, hands, expression, hair, ribbon, size, composition, background and text. No new objects. Keep the same 16:9 canvas and flat PV drawing style, do not recenter, zoom or redesign.",
+    "sha256": "321ce4c3fd9e0f87baf717abcd200e9a2fab0ae85ee7532123ccfabd2eb724b4",
+    "included": true
+  }
+]

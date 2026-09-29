@@ -1,0 +1,675 @@
+{
+  "fps": 24,
+  "font": "ZCOOL KuaiLe Regular",
+  "timing_basis": "Source PV visual Japanese lyric events; integer source frames",
+  "title_metadata_lines": [
+    53,
+    54
+  ],
+  "cues": [
+    {
+      "id": 1,
+      "start": 11,
+      "end": 86,
+      "source_lines": [
+        1
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 2,
+      "start": 86,
+      "end": 163,
+      "source_lines": [
+        2
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 3,
+      "start": 163,
+      "end": 201,
+      "source_lines": [
+        3
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 4,
+      "start": 201,
+      "end": 240,
+      "source_lines": [
+        4
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 5,
+      "start": 240,
+      "end": 325,
+      "source_lines": [
+        5
+      ],
+      "position": [
+        960,
+        120
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 6,
+      "start": 325,
+      "end": 393,
+      "source_lines": [
+        6
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 7,
+      "start": 393,
+      "end": 472,
+      "source_lines": [
+        7
+      ],
+      "position": [
+        1150,
+        130
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 8,
+      "start": 472,
+      "end": 489,
+      "source_lines": [
+        8
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 9,
+      "start": 489,
+      "end": 546,
+      "source_lines": [
+        9
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 10,
+      "start": 546,
+      "end": 621,
+      "source_lines": [
+        10
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 11,
+      "start": 621,
+      "end": 704,
+      "source_lines": [
+        11,
+        12
+      ],
+      "position": [
+        700,
+        400
+      ],
+      "size": 48,
+      "max_width": 550,
+      "line_break": true
+    },
+    {
+      "id": 12,
+      "start": 704,
+      "end": 787,
+      "source_lines": [
+        13
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 13,
+      "start": 787,
+      "end": 826,
+      "source_lines": [
+        14
+      ],
+      "position": [
+        870,
+        120
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 14,
+      "start": 826,
+      "end": 862,
+      "source_lines": [
+        15
+      ],
+      "position": [
+        870,
+        120
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 15,
+      "start": 862,
+      "end": 930,
+      "source_lines": [
+        16
+      ],
+      "position": [
+        940,
+        920
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 16,
+      "start": 930,
+      "end": 982,
+      "source_lines": [
+        17
+      ],
+      "position": [
+        450,
+        850
+      ],
+      "size": 44,
+      "max_width": 830
+    },
+    {
+      "id": 17,
+      "start": 982,
+      "end": 1018,
+      "source_lines": [
+        18
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 18,
+      "start": 1018,
+      "end": 1091,
+      "source_lines": [
+        19
+      ],
+      "position": [
+        1000,
+        190
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 19,
+      "start": 1401,
+      "end": 1467,
+      "source_lines": [
+        20
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 20,
+      "start": 1467,
+      "end": 1543,
+      "source_lines": [
+        21
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 21,
+      "start": 1543,
+      "end": 1585,
+      "source_lines": [
+        22
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 22,
+      "start": 1585,
+      "end": 1631,
+      "source_lines": [
+        23
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 23,
+      "start": 1631,
+      "end": 1708,
+      "source_lines": [
+        24
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 24,
+      "start": 1708,
+      "end": 1776,
+      "source_lines": [
+        25
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 25,
+      "start": 1776,
+      "end": 1850,
+      "source_lines": [
+        26
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 26,
+      "start": 1850,
+      "end": 1930,
+      "source_lines": [
+        27
+      ],
+      "position": [
+        960,
+        125
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 27,
+      "start": 1930,
+      "end": 2042,
+      "source_lines": [
+        28,
+        29
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 28,
+      "start": 2042,
+      "end": 2081,
+      "source_lines": [
+        30
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 29,
+      "start": 2081,
+      "end": 2169,
+      "source_lines": [
+        31
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 30,
+      "start": 2169,
+      "end": 2197,
+      "source_lines": [
+        32
+      ],
+      "position": [
+        1460,
+        920
+      ],
+      "size": 44,
+      "max_width": 840
+    },
+    {
+      "id": 31,
+      "start": 2197,
+      "end": 2235,
+      "source_lines": [
+        33
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 32,
+      "start": 2235,
+      "end": 2314,
+      "source_lines": [
+        34,
+        35
+      ],
+      "position": [
+        960,
+        330
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 33,
+      "start": 2314,
+      "end": 2367,
+      "source_lines": [
+        36
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 34,
+      "start": 2367,
+      "end": 2401,
+      "source_lines": [
+        37
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 35,
+      "start": 2401,
+      "end": 2472,
+      "source_lines": [
+        38
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 36,
+      "start": 2785,
+      "end": 2939,
+      "source_lines": [
+        39
+      ],
+      "position": [
+        960,
+        170
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 37,
+      "start": 2939,
+      "end": 3003,
+      "source_lines": [
+        40
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 38,
+      "start": 3003,
+      "end": 3083,
+      "source_lines": [
+        41
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 39,
+      "start": 3083,
+      "end": 3154,
+      "source_lines": [
+        42
+      ],
+      "position": [
+        1000,
+        180
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 40,
+      "start": 3154,
+      "end": 3239,
+      "source_lines": [
+        43
+      ],
+      "position": [
+        1000,
+        180
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 41,
+      "start": 3239,
+      "end": 3321,
+      "source_lines": [
+        44,
+        45
+      ],
+      "position": [
+        960,
+        240
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 42,
+      "start": 3321,
+      "end": 3397,
+      "source_lines": [
+        46
+      ],
+      "position": [
+        900,
+        300
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 43,
+      "start": 3397,
+      "end": 3440,
+      "source_lines": [
+        47
+      ],
+      "position": [
+        960,
+        180
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 44,
+      "start": 3440,
+      "end": 3478,
+      "source_lines": [
+        48
+      ],
+      "position": [
+        960,
+        180
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 45,
+      "start": 3478,
+      "end": 3543,
+      "source_lines": [
+        49
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 46,
+      "start": 3543,
+      "end": 3630,
+      "source_lines": [
+        50,
+        51
+      ],
+      "position": [
+        960,
+        280
+      ],
+      "size": 48,
+      "max_width": 1400
+    },
+    {
+      "id": 47,
+      "start": 3630,
+      "end": 3698,
+      "source_lines": [
+        52
+      ],
+      "position": [
+        960,
+        1020
+      ],
+      "size": 48,
+      "max_width": 1400
+    }
+  ]
+}
