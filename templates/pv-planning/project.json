@@ -1,0 +1,19 @@
+{
+  "status": "planning",
+  "source": {
+    "video_file": null,
+    "video_sha256": null,
+    "audio_file": null,
+    "audio_sha256": null,
+    "fps_num": null,
+    "fps_den": null,
+    "total_frames": null
+  },
+  "output_width": null,
+  "output_height": null,
+  "character_variants": [],
+  "hard_constraints": [],
+  "preserve": [],
+  "public_version": null,
+  "render_revision": null
+}

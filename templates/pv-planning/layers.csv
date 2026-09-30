@@ -1,0 +1,1 @@
+shot_id,layer_id,start_frame,end_frame_exclusive,z_order,object_id,source_kind,source_ref,mask_rule,occludes,occluded_by,contact_phase

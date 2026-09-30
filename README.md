@@ -36,6 +36,7 @@ FFmpeg/FFprobe可用`ROXY_FFMPEG`、`ROXY_FFPROBE`指定；对比字体和署名
 
 ## 制作资料
 
+- [下一支PV的制作指南](docs/production-guide.md)与[规划模板](templates/pv-planning/README.md)
 - [制作流程](docs/pipeline.md)与[合成规则](docs/v4-revision.md)
 - [原画提示词与来源](assets/revision4-manifest.json)
 - [验证说明](docs/validation.md)

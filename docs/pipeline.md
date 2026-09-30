@@ -2,6 +2,8 @@
 
 所有脚本从自身位置确定仓库根目录，不读取旧任务目录。
 
+制作v1/v2全片左右对比：已有两版正片时运行`tools/revision_encode.py --compare-versions`，输出`deliverables/roxy-v1-v2-comparison.mp4`。左侧v1、右侧v2，共用原音轨。
+
 1. prepare.py与prepare_full.py：解码原视频，建立24fps的源帧与已验证试片窗口。
 2. composite.py与full_composite.py：试片及全曲基础合成，定义78段的角色替换、字与道具保护、移动框和家具前后关系。
 3. revision_composite.py：补齐背影风动、纸杯、表情、手势等差分，以源画面选姿态；历史命名表示基础合成之后的运动修订层，仍是当前版本的依赖。

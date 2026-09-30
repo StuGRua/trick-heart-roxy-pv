@@ -65,3 +65,12 @@
 !tools/test_revision4.py
 !docs/v2-release.md
 !tests/v4-verification.json
+!templates/
+!templates/pv-planning/
+!docs/production-guide.md
+!templates/pv-planning/layers.csv
+!templates/pv-planning/pose-events.csv
+!templates/pv-planning/project.json
+!templates/pv-planning/README.md
+!templates/pv-planning/reviews.csv
+!templates/pv-planning/shots.csv
